@@ -1,0 +1,35 @@
+Problem:    fesztivalok
+Rows:       7
+Columns:    4 (4 integer, 4 binary)
+Non-zeros:  19
+Status:     INTEGER OPTIMAL
+Objective:  Festtivals = 2 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Dalriada                    2             1               
+     2 Metallica                   1             1               
+     3 Eluveitie                   1             1               
+     4 Liva                        1             1               
+     5 IcedEarth                   2             1               
+     6 Virrasztok                  1             1               
+     7 Festtivals                  2                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 RockMarathon *              0             0             1 
+     2 Sziget       *              1             0             1 
+     3 Volt         *              0             0             1 
+     4 Metalfest    *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

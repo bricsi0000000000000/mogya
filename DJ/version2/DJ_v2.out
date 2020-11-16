@@ -1,0 +1,948 @@
+Problem:    DJ_v2
+Rows:       256
+Columns:    220 (220 integer, 220 binary)
+Non-zeros:  1216
+Status:     INTEGER OPTIMAL
+Objective:  Tracklist = 21 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 PlayExactlyOneSong[1]
+                                   1             1             = 
+     2 PlayExactlyOneSong[2]
+                                   1             1             = 
+     3 PlayExactlyOneSong[3]
+                                   1             1             = 
+     4 PlayExactlyOneSong[4]
+                                   1             1             = 
+     5 PlayExactlyOneSong[5]
+                                   1             1             = 
+     6 PlayExactlyOneSong[6]
+                                   1             1             = 
+     7 PlayExactlyOneSong[7]
+                                   1             1             = 
+     8 PlayExactlyOneSong[8]
+                                   1             1             = 
+     9 PlayExactlyOneSong[9]
+                                   1             1             = 
+    10 PlayExactlyOneSong[10]
+                                   1             1             = 
+    11 ExactlyOneState[1,Andi]
+                                   1             1             = 
+    12 ExactlyOneState[1,Guszti]
+                                   1             1             = 
+    13 ExactlyOneState[1,Patrik]
+                                   1             1             = 
+    14 ExactlyOneState[1,Tina]
+                                   1             1             = 
+    15 ExactlyOneState[1,Mate]
+                                   1             1             = 
+    16 ExactlyOneState[2,Andi]
+                                   1             1             = 
+    17 ExactlyOneState[2,Guszti]
+                                   1             1             = 
+    18 ExactlyOneState[2,Patrik]
+                                   1             1             = 
+    19 ExactlyOneState[2,Tina]
+                                   1             1             = 
+    20 ExactlyOneState[2,Mate]
+                                   1             1             = 
+    21 ExactlyOneState[3,Andi]
+                                   1             1             = 
+    22 ExactlyOneState[3,Guszti]
+                                   1             1             = 
+    23 ExactlyOneState[3,Patrik]
+                                   1             1             = 
+    24 ExactlyOneState[3,Tina]
+                                   1             1             = 
+    25 ExactlyOneState[3,Mate]
+                                   1             1             = 
+    26 ExactlyOneState[4,Andi]
+                                   1             1             = 
+    27 ExactlyOneState[4,Guszti]
+                                   1             1             = 
+    28 ExactlyOneState[4,Patrik]
+                                   1             1             = 
+    29 ExactlyOneState[4,Tina]
+                                   1             1             = 
+    30 ExactlyOneState[4,Mate]
+                                   1             1             = 
+    31 ExactlyOneState[5,Andi]
+                                   1             1             = 
+    32 ExactlyOneState[5,Guszti]
+                                   1             1             = 
+    33 ExactlyOneState[5,Patrik]
+                                   1             1             = 
+    34 ExactlyOneState[5,Tina]
+                                   1             1             = 
+    35 ExactlyOneState[5,Mate]
+                                   1             1             = 
+    36 ExactlyOneState[6,Andi]
+                                   1             1             = 
+    37 ExactlyOneState[6,Guszti]
+                                   1             1             = 
+    38 ExactlyOneState[6,Patrik]
+                                   1             1             = 
+    39 ExactlyOneState[6,Tina]
+                                   1             1             = 
+    40 ExactlyOneState[6,Mate]
+                                   1             1             = 
+    41 ExactlyOneState[7,Andi]
+                                   1             1             = 
+    42 ExactlyOneState[7,Guszti]
+                                   1             1             = 
+    43 ExactlyOneState[7,Patrik]
+                                   1             1             = 
+    44 ExactlyOneState[7,Tina]
+                                   1             1             = 
+    45 ExactlyOneState[7,Mate]
+                                   1             1             = 
+    46 ExactlyOneState[8,Andi]
+                                   1             1             = 
+    47 ExactlyOneState[8,Guszti]
+                                   1             1             = 
+    48 ExactlyOneState[8,Patrik]
+                                   1             1             = 
+    49 ExactlyOneState[8,Tina]
+                                   1             1             = 
+    50 ExactlyOneState[8,Mate]
+                                   1             1             = 
+    51 ExactlyOneState[9,Andi]
+                                   1             1             = 
+    52 ExactlyOneState[9,Guszti]
+                                   1             1             = 
+    53 ExactlyOneState[9,Patrik]
+                                   1             1             = 
+    54 ExactlyOneState[9,Tina]
+                                   1             1             = 
+    55 ExactlyOneState[9,Mate]
+                                   1             1             = 
+    56 ExactlyOneState[10,Andi]
+                                   1             1             = 
+    57 ExactlyOneState[10,Guszti]
+                                   1             1             = 
+    58 ExactlyOneState[10,Patrik]
+                                   1             1             = 
+    59 ExactlyOneState[10,Tina]
+                                   1             1             = 
+    60 ExactlyOneState[10,Mate]
+                                   1             1             = 
+    61 DoesntDanceIfDoesntLike[Andi,1]
+                                   1                           1 
+    62 DoesntDanceIfDoesntLike[Andi,2]
+                                   1                           1 
+    63 DoesntDanceIfDoesntLike[Andi,3]
+                                   1                           1 
+    64 DoesntDanceIfDoesntLike[Andi,4]
+                                   1                           1 
+    65 DoesntDanceIfDoesntLike[Andi,5]
+                                   1                           1 
+    66 DoesntDanceIfDoesntLike[Andi,6]
+                                   1                           1 
+    67 DoesntDanceIfDoesntLike[Andi,7]
+                                   1                           1 
+    68 DoesntDanceIfDoesntLike[Andi,8]
+                                   1                           1 
+    69 DoesntDanceIfDoesntLike[Andi,9]
+                                   0                           1 
+    70 DoesntDanceIfDoesntLike[Andi,10]
+                                   1                           1 
+    71 DoesntDanceIfDoesntLike[Guszti,1]
+                                   1                           1 
+    72 DoesntDanceIfDoesntLike[Guszti,2]
+                                   1                           1 
+    73 DoesntDanceIfDoesntLike[Guszti,3]
+                                   1                           1 
+    74 DoesntDanceIfDoesntLike[Guszti,4]
+                                   1                           1 
+    75 DoesntDanceIfDoesntLike[Guszti,5]
+                                   1                           1 
+    76 DoesntDanceIfDoesntLike[Guszti,6]
+                                   1                           1 
+    77 DoesntDanceIfDoesntLike[Guszti,7]
+                                   1                           1 
+    78 DoesntDanceIfDoesntLike[Guszti,8]
+                                   1                           1 
+    79 DoesntDanceIfDoesntLike[Guszti,9]
+                                   1                           1 
+    80 DoesntDanceIfDoesntLike[Guszti,10]
+                                   1                           1 
+    81 DoesntDanceIfDoesntLike[Patrik,1]
+                                   1                           1 
+    82 DoesntDanceIfDoesntLike[Patrik,2]
+                                   1                           1 
+    83 DoesntDanceIfDoesntLike[Patrik,3]
+                                   1                           1 
+    84 DoesntDanceIfDoesntLike[Patrik,4]
+                                   1                           1 
+    85 DoesntDanceIfDoesntLike[Patrik,5]
+                                   1                           1 
+    86 DoesntDanceIfDoesntLike[Patrik,6]
+                                   1                           1 
+    87 DoesntDanceIfDoesntLike[Patrik,7]
+                                   1                           1 
+    88 DoesntDanceIfDoesntLike[Patrik,8]
+                                   1                           1 
+    89 DoesntDanceIfDoesntLike[Patrik,9]
+                                   1                           1 
+    90 DoesntDanceIfDoesntLike[Patrik,10]
+                                   1                           1 
+    91 DoesntDanceIfDoesntLike[Tina,1]
+                                   1                           1 
+    92 DoesntDanceIfDoesntLike[Tina,2]
+                                   1                           1 
+    93 DoesntDanceIfDoesntLike[Tina,3]
+                                   1                           1 
+    94 DoesntDanceIfDoesntLike[Tina,4]
+                                   1                           1 
+    95 DoesntDanceIfDoesntLike[Tina,5]
+                                   1                           1 
+    96 DoesntDanceIfDoesntLike[Tina,6]
+                                   1                           1 
+    97 DoesntDanceIfDoesntLike[Tina,7]
+                                   1                           1 
+    98 DoesntDanceIfDoesntLike[Tina,8]
+                                   1                           1 
+    99 DoesntDanceIfDoesntLike[Tina,9]
+                                   1                           1 
+   100 DoesntDanceIfDoesntLike[Tina,10]
+                                   1                           1 
+   101 DoesntDanceIfDoesntLike[Mate,1]
+                                   1                           1 
+   102 DoesntDanceIfDoesntLike[Mate,2]
+                                   1                           1 
+   103 DoesntDanceIfDoesntLike[Mate,3]
+                                   1                           1 
+   104 DoesntDanceIfDoesntLike[Mate,4]
+                                   1                           1 
+   105 DoesntDanceIfDoesntLike[Mate,5]
+                                   1                           1 
+   106 DoesntDanceIfDoesntLike[Mate,6]
+                                   1                           1 
+   107 DoesntDanceIfDoesntLike[Mate,7]
+                                   1                           1 
+   108 DoesntDanceIfDoesntLike[Mate,8]
+                                   1                           1 
+   109 DoesntDanceIfDoesntLike[Mate,9]
+                                   1                           1 
+   110 DoesntDanceIfDoesntLike[Mate,10]
+                                   1                           1 
+   111 TwoDoesntLikeInARowThenAway[Andi,2]
+                                  -1            -1               
+   112 TwoDoesntLikeInARowThenAway[Andi,3]
+                                  -1            -1               
+   113 TwoDoesntLikeInARowThenAway[Andi,4]
+                                  -1            -1               
+   114 TwoDoesntLikeInARowThenAway[Andi,5]
+                                  -1            -1               
+   115 TwoDoesntLikeInARowThenAway[Andi,6]
+                                  -1            -1               
+   116 TwoDoesntLikeInARowThenAway[Andi,7]
+                                  -1            -1               
+   117 TwoDoesntLikeInARowThenAway[Andi,8]
+                                  -1            -1               
+   118 TwoDoesntLikeInARowThenAway[Andi,9]
+                                   0            -1               
+   119 TwoDoesntLikeInARowThenAway[Andi,10]
+                                   0            -1               
+   120 TwoDoesntLikeInARowThenAway[Guszti,2]
+                                  -1            -1               
+   121 TwoDoesntLikeInARowThenAway[Guszti,3]
+                                  -1            -1               
+   122 TwoDoesntLikeInARowThenAway[Guszti,4]
+                                  -1            -1               
+   123 TwoDoesntLikeInARowThenAway[Guszti,5]
+                                  -1            -1               
+   124 TwoDoesntLikeInARowThenAway[Guszti,6]
+                                  -1            -1               
+   125 TwoDoesntLikeInARowThenAway[Guszti,7]
+                                  -1            -1               
+   126 TwoDoesntLikeInARowThenAway[Guszti,8]
+                                  -1            -1               
+   127 TwoDoesntLikeInARowThenAway[Guszti,9]
+                                  -1            -1               
+   128 TwoDoesntLikeInARowThenAway[Guszti,10]
+                                  -1            -1               
+   129 TwoDoesntLikeInARowThenAway[Patrik,2]
+                                  -1            -1               
+   130 TwoDoesntLikeInARowThenAway[Patrik,3]
+                                  -1            -1               
+   131 TwoDoesntLikeInARowThenAway[Patrik,4]
+                                  -1            -1               
+   132 TwoDoesntLikeInARowThenAway[Patrik,5]
+                                  -1            -1               
+   133 TwoDoesntLikeInARowThenAway[Patrik,6]
+                                  -1            -1               
+   134 TwoDoesntLikeInARowThenAway[Patrik,7]
+                                  -1            -1               
+   135 TwoDoesntLikeInARowThenAway[Patrik,8]
+                                  -1            -1               
+   136 TwoDoesntLikeInARowThenAway[Patrik,9]
+                                   0            -1               
+   137 TwoDoesntLikeInARowThenAway[Patrik,10]
+                                  -1            -1               
+   138 TwoDoesntLikeInARowThenAway[Tina,2]
+                                  -1            -1               
+   139 TwoDoesntLikeInARowThenAway[Tina,3]
+                                  -1            -1               
+   140 TwoDoesntLikeInARowThenAway[Tina,4]
+                                  -1            -1               
+   141 TwoDoesntLikeInARowThenAway[Tina,5]
+                                  -1            -1               
+   142 TwoDoesntLikeInARowThenAway[Tina,6]
+                                  -1            -1               
+   143 TwoDoesntLikeInARowThenAway[Tina,7]
+                                  -1            -1               
+   144 TwoDoesntLikeInARowThenAway[Tina,8]
+                                  -1            -1               
+   145 TwoDoesntLikeInARowThenAway[Tina,9]
+                                  -1            -1               
+   146 TwoDoesntLikeInARowThenAway[Tina,10]
+                                  -1            -1               
+   147 TwoDoesntLikeInARowThenAway[Mate,2]
+                                  -1            -1               
+   148 TwoDoesntLikeInARowThenAway[Mate,3]
+                                  -1            -1               
+   149 TwoDoesntLikeInARowThenAway[Mate,4]
+                                  -1            -1               
+   150 TwoDoesntLikeInARowThenAway[Mate,5]
+                                  -1            -1               
+   151 TwoDoesntLikeInARowThenAway[Mate,6]
+                                  -1            -1               
+   152 TwoDoesntLikeInARowThenAway[Mate,7]
+                                  -1            -1               
+   153 TwoDoesntLikeInARowThenAway[Mate,8]
+                                  -1            -1               
+   154 TwoDoesntLikeInARowThenAway[Mate,9]
+                                  -1            -1               
+   155 TwoDoesntLikeInARowThenAway[Mate,10]
+                                  -1            -1               
+   156 OnceAwayAlwaysAway[Andi,2]
+                                   1            -0               
+   157 OnceAwayAlwaysAway[Andi,3]
+                                   0            -0               
+   158 OnceAwayAlwaysAway[Andi,4]
+                                   0            -0               
+   159 OnceAwayAlwaysAway[Andi,5]
+                                   0            -0               
+   160 OnceAwayAlwaysAway[Andi,6]
+                                   0            -0               
+   161 OnceAwayAlwaysAway[Andi,7]
+                                   0            -0               
+   162 OnceAwayAlwaysAway[Andi,8]
+                                   0            -0               
+   163 OnceAwayAlwaysAway[Andi,9]
+                                   0            -0               
+   164 OnceAwayAlwaysAway[Andi,10]
+                                   0            -0               
+   165 OnceAwayAlwaysAway[Guszti,2]
+                                   0            -0               
+   166 OnceAwayAlwaysAway[Guszti,3]
+                                   0            -0               
+   167 OnceAwayAlwaysAway[Guszti,4]
+                                   0            -0               
+   168 OnceAwayAlwaysAway[Guszti,5]
+                                   0            -0               
+   169 OnceAwayAlwaysAway[Guszti,6]
+                                   0            -0               
+   170 OnceAwayAlwaysAway[Guszti,7]
+                                   0            -0               
+   171 OnceAwayAlwaysAway[Guszti,8]
+                                   0            -0               
+   172 OnceAwayAlwaysAway[Guszti,9]
+                                   0            -0               
+   173 OnceAwayAlwaysAway[Guszti,10]
+                                   0            -0               
+   174 OnceAwayAlwaysAway[Patrik,2]
+                                   0            -0               
+   175 OnceAwayAlwaysAway[Patrik,3]
+                                   0            -0               
+   176 OnceAwayAlwaysAway[Patrik,4]
+                                   0            -0               
+   177 OnceAwayAlwaysAway[Patrik,5]
+                                   0            -0               
+   178 OnceAwayAlwaysAway[Patrik,6]
+                                   0            -0               
+   179 OnceAwayAlwaysAway[Patrik,7]
+                                   0            -0               
+   180 OnceAwayAlwaysAway[Patrik,8]
+                                   0            -0               
+   181 OnceAwayAlwaysAway[Patrik,9]
+                                   0            -0               
+   182 OnceAwayAlwaysAway[Patrik,10]
+                                   0            -0               
+   183 OnceAwayAlwaysAway[Tina,2]
+                                   0            -0               
+   184 OnceAwayAlwaysAway[Tina,3]
+                                   0            -0               
+   185 OnceAwayAlwaysAway[Tina,4]
+                                   0            -0               
+   186 OnceAwayAlwaysAway[Tina,5]
+                                   0            -0               
+   187 OnceAwayAlwaysAway[Tina,6]
+                                   0            -0               
+   188 OnceAwayAlwaysAway[Tina,7]
+                                   0            -0               
+   189 OnceAwayAlwaysAway[Tina,8]
+                                   0            -0               
+   190 OnceAwayAlwaysAway[Tina,9]
+                                   0            -0               
+   191 OnceAwayAlwaysAway[Tina,10]
+                                   1            -0               
+   192 OnceAwayAlwaysAway[Mate,2]
+                                   0            -0               
+   193 OnceAwayAlwaysAway[Mate,3]
+                                   0            -0               
+   194 OnceAwayAlwaysAway[Mate,4]
+                                   0            -0               
+   195 OnceAwayAlwaysAway[Mate,5]
+                                   0            -0               
+   196 OnceAwayAlwaysAway[Mate,6]
+                                   0            -0               
+   197 OnceAwayAlwaysAway[Mate,7]
+                                   0            -0               
+   198 OnceAwayAlwaysAway[Mate,8]
+                                   0            -0               
+   199 OnceAwayAlwaysAway[Mate,9]
+                                   0            -0               
+   200 OnceAwayAlwaysAway[Mate,10]
+                                   0            -0               
+   201 IfNotAwayAndLikeThenDance[Andi,1]
+                                   0            -0               
+   202 IfNotAwayAndLikeThenDance[Andi,2]
+                                   1            -0               
+   203 IfNotAwayAndLikeThenDance[Andi,3]
+                                   1            -0               
+   204 IfNotAwayAndLikeThenDance[Andi,4]
+                                   1            -0               
+   205 IfNotAwayAndLikeThenDance[Andi,5]
+                                   1            -0               
+   206 IfNotAwayAndLikeThenDance[Andi,6]
+                                   1            -0               
+   207 IfNotAwayAndLikeThenDance[Andi,7]
+                                   1            -0               
+   208 IfNotAwayAndLikeThenDance[Andi,8]
+                                   1            -0               
+   209 IfNotAwayAndLikeThenDance[Andi,9]
+                                   0            -0               
+   210 IfNotAwayAndLikeThenDance[Andi,10]
+                                   1            -0               
+   211 IfNotAwayAndLikeThenDance[Guszti,1]
+                                   0            -0               
+   212 IfNotAwayAndLikeThenDance[Guszti,2]
+                                   0            -0               
+   213 IfNotAwayAndLikeThenDance[Guszti,3]
+                                   0            -0               
+   214 IfNotAwayAndLikeThenDance[Guszti,4]
+                                   0            -0               
+   215 IfNotAwayAndLikeThenDance[Guszti,5]
+                                   0            -0               
+   216 IfNotAwayAndLikeThenDance[Guszti,6]
+                                   0            -0               
+   217 IfNotAwayAndLikeThenDance[Guszti,7]
+                                   0            -0               
+   218 IfNotAwayAndLikeThenDance[Guszti,8]
+                                   0            -0               
+   219 IfNotAwayAndLikeThenDance[Guszti,9]
+                                   0            -0               
+   220 IfNotAwayAndLikeThenDance[Guszti,10]
+                                   0            -0               
+   221 IfNotAwayAndLikeThenDance[Patrik,1]
+                                   0            -0               
+   222 IfNotAwayAndLikeThenDance[Patrik,2]
+                                   0            -0               
+   223 IfNotAwayAndLikeThenDance[Patrik,3]
+                                   0            -0               
+   224 IfNotAwayAndLikeThenDance[Patrik,4]
+                                   0            -0               
+   225 IfNotAwayAndLikeThenDance[Patrik,5]
+                                   0            -0               
+   226 IfNotAwayAndLikeThenDance[Patrik,6]
+                                   0            -0               
+   227 IfNotAwayAndLikeThenDance[Patrik,7]
+                                   0            -0               
+   228 IfNotAwayAndLikeThenDance[Patrik,8]
+                                   0            -0               
+   229 IfNotAwayAndLikeThenDance[Patrik,9]
+                                   0            -0               
+   230 IfNotAwayAndLikeThenDance[Patrik,10]
+                                   0            -0               
+   231 IfNotAwayAndLikeThenDance[Tina,1]
+                                   0            -0               
+   232 IfNotAwayAndLikeThenDance[Tina,2]
+                                   0            -0               
+   233 IfNotAwayAndLikeThenDance[Tina,3]
+                                   0            -0               
+   234 IfNotAwayAndLikeThenDance[Tina,4]
+                                   0            -0               
+   235 IfNotAwayAndLikeThenDance[Tina,5]
+                                   0            -0               
+   236 IfNotAwayAndLikeThenDance[Tina,6]
+                                   0            -0               
+   237 IfNotAwayAndLikeThenDance[Tina,7]
+                                   0            -0               
+   238 IfNotAwayAndLikeThenDance[Tina,8]
+                                   0            -0               
+   239 IfNotAwayAndLikeThenDance[Tina,9]
+                                   0            -0               
+   240 IfNotAwayAndLikeThenDance[Tina,10]
+                                   1            -0               
+   241 IfNotAwayAndLikeThenDance[Mate,1]
+                                   0            -0               
+   242 IfNotAwayAndLikeThenDance[Mate,2]
+                                   0            -0               
+   243 IfNotAwayAndLikeThenDance[Mate,3]
+                                   0            -0               
+   244 IfNotAwayAndLikeThenDance[Mate,4]
+                                   0            -0               
+   245 IfNotAwayAndLikeThenDance[Mate,5]
+                                   0            -0               
+   246 IfNotAwayAndLikeThenDance[Mate,6]
+                                   0            -0               
+   247 IfNotAwayAndLikeThenDance[Mate,7]
+                                   0            -0               
+   248 IfNotAwayAndLikeThenDance[Mate,8]
+                                   0            -0               
+   249 IfNotAwayAndLikeThenDance[Mate,9]
+                                   0            -0               
+   250 IfNotAwayAndLikeThenDance[Mate,10]
+                                   0            -0               
+   251 NotAwayTheFirstTime[Andi]
+                                   0            -0             = 
+   252 NotAwayTheFirstTime[Guszti]
+                                   0            -0             = 
+   253 NotAwayTheFirstTime[Patrik]
+                                   0            -0             = 
+   254 NotAwayTheFirstTime[Tina]
+                                   0            -0             = 
+   255 NotAwayTheFirstTime[Mate]
+                                   0            -0             = 
+   256 Tracklist                  21                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 play[Freedom,1]
+                    *              0             0             1 
+     2 play[HighwayToHell,1]
+                    *              0             0             1 
+     3 play[ShippingUpToBoston,1]
+                    *              0             0             1 
+     4 play[ItsMyLife,1]
+                    *              0             0             1 
+     5 play[WhiskyInTheJar,1]
+                    *              1             0             1 
+     6 play[SummerOf69,1]
+                    *              0             0             1 
+     7 play[ILoveRockAndRoll,1]
+                    *              0             0             1 
+     8 play[Freedom,2]
+                    *              0             0             1 
+     9 play[HighwayToHell,2]
+                    *              0             0             1 
+    10 play[ShippingUpToBoston,2]
+                    *              0             0             1 
+    11 play[ItsMyLife,2]
+                    *              1             0             1 
+    12 play[WhiskyInTheJar,2]
+                    *              0             0             1 
+    13 play[SummerOf69,2]
+                    *              0             0             1 
+    14 play[ILoveRockAndRoll,2]
+                    *              0             0             1 
+    15 play[Freedom,3]
+                    *              0             0             1 
+    16 play[HighwayToHell,3]
+                    *              0             0             1 
+    17 play[ShippingUpToBoston,3]
+                    *              0             0             1 
+    18 play[ItsMyLife,3]
+                    *              0             0             1 
+    19 play[WhiskyInTheJar,3]
+                    *              1             0             1 
+    20 play[SummerOf69,3]
+                    *              0             0             1 
+    21 play[ILoveRockAndRoll,3]
+                    *              0             0             1 
+    22 play[Freedom,4]
+                    *              0             0             1 
+    23 play[HighwayToHell,4]
+                    *              0             0             1 
+    24 play[ShippingUpToBoston,4]
+                    *              0             0             1 
+    25 play[ItsMyLife,4]
+                    *              1             0             1 
+    26 play[WhiskyInTheJar,4]
+                    *              0             0             1 
+    27 play[SummerOf69,4]
+                    *              0             0             1 
+    28 play[ILoveRockAndRoll,4]
+                    *              0             0             1 
+    29 play[Freedom,5]
+                    *              0             0             1 
+    30 play[HighwayToHell,5]
+                    *              0             0             1 
+    31 play[ShippingUpToBoston,5]
+                    *              0             0             1 
+    32 play[ItsMyLife,5]
+                    *              0             0             1 
+    33 play[WhiskyInTheJar,5]
+                    *              1             0             1 
+    34 play[SummerOf69,5]
+                    *              0             0             1 
+    35 play[ILoveRockAndRoll,5]
+                    *              0             0             1 
+    36 play[Freedom,6]
+                    *              0             0             1 
+    37 play[HighwayToHell,6]
+                    *              0             0             1 
+    38 play[ShippingUpToBoston,6]
+                    *              0             0             1 
+    39 play[ItsMyLife,6]
+                    *              1             0             1 
+    40 play[WhiskyInTheJar,6]
+                    *              0             0             1 
+    41 play[SummerOf69,6]
+                    *              0             0             1 
+    42 play[ILoveRockAndRoll,6]
+                    *              0             0             1 
+    43 play[Freedom,7]
+                    *              0             0             1 
+    44 play[HighwayToHell,7]
+                    *              0             0             1 
+    45 play[ShippingUpToBoston,7]
+                    *              0             0             1 
+    46 play[ItsMyLife,7]
+                    *              0             0             1 
+    47 play[WhiskyInTheJar,7]
+                    *              1             0             1 
+    48 play[SummerOf69,7]
+                    *              0             0             1 
+    49 play[ILoveRockAndRoll,7]
+                    *              0             0             1 
+    50 play[Freedom,8]
+                    *              0             0             1 
+    51 play[HighwayToHell,8]
+                    *              0             0             1 
+    52 play[ShippingUpToBoston,8]
+                    *              0             0             1 
+    53 play[ItsMyLife,8]
+                    *              1             0             1 
+    54 play[WhiskyInTheJar,8]
+                    *              0             0             1 
+    55 play[SummerOf69,8]
+                    *              0             0             1 
+    56 play[ILoveRockAndRoll,8]
+                    *              0             0             1 
+    57 play[Freedom,9]
+                    *              0             0             1 
+    58 play[HighwayToHell,9]
+                    *              1             0             1 
+    59 play[ShippingUpToBoston,9]
+                    *              0             0             1 
+    60 play[ItsMyLife,9]
+                    *              0             0             1 
+    61 play[WhiskyInTheJar,9]
+                    *              0             0             1 
+    62 play[SummerOf69,9]
+                    *              0             0             1 
+    63 play[ILoveRockAndRoll,9]
+                    *              0             0             1 
+    64 play[Freedom,10]
+                    *              0             0             1 
+    65 play[HighwayToHell,10]
+                    *              0             0             1 
+    66 play[ShippingUpToBoston,10]
+                    *              0             0             1 
+    67 play[ItsMyLife,10]
+                    *              0             0             1 
+    68 play[WhiskyInTheJar,10]
+                    *              0             0             1 
+    69 play[SummerOf69,10]
+                    *              0             0             1 
+    70 play[ILoveRockAndRoll,10]
+                    *              1             0             1 
+    71 dance[Andi,1]
+                    *              0             0             1 
+    72 dance[Guszti,1]
+                    *              0             0             1 
+    73 dance[Patrik,1]
+                    *              0             0             1 
+    74 dance[Tina,1]
+                    *              0             0             1 
+    75 dance[Mate,1]
+                    *              1             0             1 
+    76 dance[Andi,2]
+                    *              0             0             1 
+    77 dance[Guszti,2]
+                    *              1             0             1 
+    78 dance[Patrik,2]
+                    *              1             0             1 
+    79 dance[Tina,2]
+                    *              1             0             1 
+    80 dance[Mate,2]
+                    *              0             0             1 
+    81 dance[Andi,3]
+                    *              0             0             1 
+    82 dance[Guszti,3]
+                    *              0             0             1 
+    83 dance[Patrik,3]
+                    *              0             0             1 
+    84 dance[Tina,3]
+                    *              0             0             1 
+    85 dance[Mate,3]
+                    *              1             0             1 
+    86 dance[Andi,4]
+                    *              0             0             1 
+    87 dance[Guszti,4]
+                    *              1             0             1 
+    88 dance[Patrik,4]
+                    *              1             0             1 
+    89 dance[Tina,4]
+                    *              1             0             1 
+    90 dance[Mate,4]
+                    *              0             0             1 
+    91 dance[Andi,5]
+                    *              0             0             1 
+    92 dance[Guszti,5]
+                    *              0             0             1 
+    93 dance[Patrik,5]
+                    *              0             0             1 
+    94 dance[Tina,5]
+                    *              0             0             1 
+    95 dance[Mate,5]
+                    *              1             0             1 
+    96 dance[Andi,6]
+                    *              0             0             1 
+    97 dance[Guszti,6]
+                    *              1             0             1 
+    98 dance[Patrik,6]
+                    *              1             0             1 
+    99 dance[Tina,6]
+                    *              1             0             1 
+   100 dance[Mate,6]
+                    *              0             0             1 
+   101 dance[Andi,7]
+                    *              0             0             1 
+   102 dance[Guszti,7]
+                    *              0             0             1 
+   103 dance[Patrik,7]
+                    *              0             0             1 
+   104 dance[Tina,7]
+                    *              0             0             1 
+   105 dance[Mate,7]
+                    *              1             0             1 
+   106 dance[Andi,8]
+                    *              0             0             1 
+   107 dance[Guszti,8]
+                    *              1             0             1 
+   108 dance[Patrik,8]
+                    *              1             0             1 
+   109 dance[Tina,8]
+                    *              1             0             1 
+   110 dance[Mate,8]
+                    *              0             0             1 
+   111 dance[Andi,9]
+                    *              0             0             1 
+   112 dance[Guszti,9]
+                    *              0             0             1 
+   113 dance[Patrik,9]
+                    *              1             0             1 
+   114 dance[Tina,9]
+                    *              0             0             1 
+   115 dance[Mate,9]
+                    *              1             0             1 
+   116 dance[Andi,10]
+                    *              0             0             1 
+   117 dance[Guszti,10]
+                    *              1             0             1 
+   118 dance[Patrik,10]
+                    *              0             0             1 
+   119 dance[Tina,10]
+                    *              0             0             1 
+   120 dance[Mate,10]
+                    *              0             0             1 
+   121 drink[Andi,1]
+                    *              1             0             1 
+   122 drink[Guszti,1]
+                    *              1             0             1 
+   123 drink[Patrik,1]
+                    *              1             0             1 
+   124 drink[Tina,1]
+                    *              1             0             1 
+   125 drink[Mate,1]
+                    *              0             0             1 
+   126 drink[Andi,2]
+                    *              0             0             1 
+   127 drink[Guszti,2]
+                    *              0             0             1 
+   128 drink[Patrik,2]
+                    *              0             0             1 
+   129 drink[Tina,2]
+                    *              0             0             1 
+   130 drink[Mate,2]
+                    *              1             0             1 
+   131 drink[Andi,3]
+                    *              0             0             1 
+   132 drink[Guszti,3]
+                    *              1             0             1 
+   133 drink[Patrik,3]
+                    *              1             0             1 
+   134 drink[Tina,3]
+                    *              1             0             1 
+   135 drink[Mate,3]
+                    *              0             0             1 
+   136 drink[Andi,4]
+                    *              0             0             1 
+   137 drink[Guszti,4]
+                    *              0             0             1 
+   138 drink[Patrik,4]
+                    *              0             0             1 
+   139 drink[Tina,4]
+                    *              0             0             1 
+   140 drink[Mate,4]
+                    *              1             0             1 
+   141 drink[Andi,5]
+                    *              0             0             1 
+   142 drink[Guszti,5]
+                    *              1             0             1 
+   143 drink[Patrik,5]
+                    *              1             0             1 
+   144 drink[Tina,5]
+                    *              1             0             1 
+   145 drink[Mate,5]
+                    *              0             0             1 
+   146 drink[Andi,6]
+                    *              0             0             1 
+   147 drink[Guszti,6]
+                    *              0             0             1 
+   148 drink[Patrik,6]
+                    *              0             0             1 
+   149 drink[Tina,6]
+                    *              0             0             1 
+   150 drink[Mate,6]
+                    *              1             0             1 
+   151 drink[Andi,7]
+                    *              0             0             1 
+   152 drink[Guszti,7]
+                    *              1             0             1 
+   153 drink[Patrik,7]
+                    *              1             0             1 
+   154 drink[Tina,7]
+                    *              1             0             1 
+   155 drink[Mate,7]
+                    *              0             0             1 
+   156 drink[Andi,8]
+                    *              0             0             1 
+   157 drink[Guszti,8]
+                    *              0             0             1 
+   158 drink[Patrik,8]
+                    *              0             0             1 
+   159 drink[Tina,8]
+                    *              0             0             1 
+   160 drink[Mate,8]
+                    *              1             0             1 
+   161 drink[Andi,9]
+                    *              0             0             1 
+   162 drink[Guszti,9]
+                    *              1             0             1 
+   163 drink[Patrik,9]
+                    *              0             0             1 
+   164 drink[Tina,9]
+                    *              1             0             1 
+   165 drink[Mate,9]
+                    *              0             0             1 
+   166 drink[Andi,10]
+                    *              0             0             1 
+   167 drink[Guszti,10]
+                    *              0             0             1 
+   168 drink[Patrik,10]
+                    *              1             0             1 
+   169 drink[Tina,10]
+                    *              0             0             1 
+   170 drink[Mate,10]
+                    *              1             0             1 
+   171 away[Andi,1] *              0             0             1 
+   172 away[Guszti,1]
+                    *              0             0             1 
+   173 away[Patrik,1]
+                    *              0             0             1 
+   174 away[Tina,1] *              0             0             1 
+   175 away[Mate,1] *              0             0             1 
+   176 away[Andi,2] *              1             0             1 
+   177 away[Guszti,2]
+                    *              0             0             1 
+   178 away[Patrik,2]
+                    *              0             0             1 
+   179 away[Tina,2] *              0             0             1 
+   180 away[Mate,2] *              0             0             1 
+   181 away[Andi,3] *              1             0             1 
+   182 away[Guszti,3]
+                    *              0             0             1 
+   183 away[Patrik,3]
+                    *              0             0             1 
+   184 away[Tina,3] *              0             0             1 
+   185 away[Mate,3] *              0             0             1 
+   186 away[Andi,4] *              1             0             1 
+   187 away[Guszti,4]
+                    *              0             0             1 
+   188 away[Patrik,4]
+                    *              0             0             1 
+   189 away[Tina,4] *              0             0             1 
+   190 away[Mate,4] *              0             0             1 
+   191 away[Andi,5] *              1             0             1 
+   192 away[Guszti,5]
+                    *              0             0             1 
+   193 away[Patrik,5]
+                    *              0             0             1 
+   194 away[Tina,5] *              0             0             1 
+   195 away[Mate,5] *              0             0             1 
+   196 away[Andi,6] *              1             0             1 
+   197 away[Guszti,6]
+                    *              0             0             1 
+   198 away[Patrik,6]
+                    *              0             0             1 
+   199 away[Tina,6] *              0             0             1 
+   200 away[Mate,6] *              0             0             1 
+   201 away[Andi,7] *              1             0             1 
+   202 away[Guszti,7]
+                    *              0             0             1 
+   203 away[Patrik,7]
+                    *              0             0             1 
+   204 away[Tina,7] *              0             0             1 
+   205 away[Mate,7] *              0             0             1 
+   206 away[Andi,8] *              1             0             1 
+   207 away[Guszti,8]
+                    *              0             0             1 
+   208 away[Patrik,8]
+                    *              0             0             1 
+   209 away[Tina,8] *              0             0             1 
+   210 away[Mate,8] *              0             0             1 
+   211 away[Andi,9] *              1             0             1 
+   212 away[Guszti,9]
+                    *              0             0             1 
+   213 away[Patrik,9]
+                    *              0             0             1 
+   214 away[Tina,9] *              0             0             1 
+   215 away[Mate,9] *              0             0             1 
+   216 away[Andi,10]
+                    *              1             0             1 
+   217 away[Guszti,10]
+                    *              0             0             1 
+   218 away[Patrik,10]
+                    *              0             0             1 
+   219 away[Tina,10]
+                    *              1             0             1 
+   220 away[Mate,10]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

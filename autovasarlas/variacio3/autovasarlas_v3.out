@@ -1,0 +1,213 @@
+Problem:    autovasarlas_v3
+Rows:       42
+Columns:    61 (25 integer, 0 binary)
+Non-zeros:  142
+Status:     INTEGER OPTIMAL
+Objective:  endBudget = 346000 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 InitializeBudget
+                              200000        200000             = 
+     2 InitializeGarage[Wartburg]
+                                   0            -0             = 
+     3 InitializeGarage[Lada]
+                                   0            -0             = 
+     4 InitializeGarage[Kispolski]
+                                   0            -0             = 
+     5 InitializeGarage[Trabant]
+                                   0            -0             = 
+     6 InitializeGarage[Skoda]
+                                   0            -0             = 
+     7 BalanceChange[1]
+                                   0            -0             = 
+     8 BalanceChange[2]
+                                   0            -0             = 
+     9 BalanceChange[3]
+                                   0            -0             = 
+    10 BalanceChange[4]
+                                   0            -0             = 
+    11 BalanceChange[5]
+                                   0            -0             = 
+    12 CarAvailability[1,Wartburg]
+                                   0            -0             = 
+    13 CarAvailability[1,Lada]
+                                   0            -0             = 
+    14 CarAvailability[1,Kispolski]
+                                   0            -0             = 
+    15 CarAvailability[1,Trabant]
+                                   0            -0             = 
+    16 CarAvailability[1,Skoda]
+                                   0            -0             = 
+    17 CarAvailability[2,Wartburg]
+                                   0            -0             = 
+    18 CarAvailability[2,Lada]
+                                   0            -0             = 
+    19 CarAvailability[2,Kispolski]
+                                   0            -0             = 
+    20 CarAvailability[2,Trabant]
+                                   0            -0             = 
+    21 CarAvailability[2,Skoda]
+                                   0            -0             = 
+    22 CarAvailability[3,Wartburg]
+                                   0            -0             = 
+    23 CarAvailability[3,Lada]
+                                   0            -0             = 
+    24 CarAvailability[3,Kispolski]
+                                   0            -0             = 
+    25 CarAvailability[3,Trabant]
+                                   0            -0             = 
+    26 CarAvailability[3,Skoda]
+                                   0            -0             = 
+    27 CarAvailability[4,Wartburg]
+                                   0            -0             = 
+    28 CarAvailability[4,Lada]
+                                   0            -0             = 
+    29 CarAvailability[4,Kispolski]
+                                   0            -0             = 
+    30 CarAvailability[4,Trabant]
+                                   0            -0             = 
+    31 CarAvailability[4,Skoda]
+                                   0            -0             = 
+    32 CarAvailability[5,Wartburg]
+                                   0            -0             = 
+    33 CarAvailability[5,Lada]
+                                   0            -0             = 
+    34 CarAvailability[5,Kispolski]
+                                   0            -0             = 
+    35 CarAvailability[5,Trabant]
+                                   0            -0             = 
+    36 CarAvailability[5,Skoda]
+                                   0            -0             = 
+    37 CannotHaveMoreCarsThanGarageCount[1]
+                                   4                           4 
+    38 CannotHaveMoreCarsThanGarageCount[2]
+                                   3                           4 
+    39 CannotHaveMoreCarsThanGarageCount[3]
+                                   3                           4 
+    40 CannotHaveMoreCarsThanGarageCount[4]
+                                   3                           4 
+    41 CannotHaveMoreCarsThanGarageCount[5]
+                                   0                           4 
+    42 endBudget              346000                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 buy[Wartburg,1]
+                    *              0                             
+     2 buy[Lada,1]  *              4                             
+     3 buy[Kispolski,1]
+                    *              0                             
+     4 buy[Trabant,1]
+                    *              0                             
+     5 buy[Skoda,1] *              0                             
+     6 buy[Wartburg,2]
+                    *              0                             
+     7 buy[Lada,2]  *             -4                             
+     8 buy[Kispolski,2]
+                    *              0                             
+     9 buy[Trabant,2]
+                    *              3                             
+    10 buy[Skoda,2] *              0                             
+    11 buy[Wartburg,3]
+                    *              0                             
+    12 buy[Lada,3]  *              0                             
+    13 buy[Kispolski,3]
+                    *              0                             
+    14 buy[Trabant,3]
+                    *             -3                             
+    15 buy[Skoda,3] *              3                             
+    16 buy[Wartburg,4]
+                    *              0                             
+    17 buy[Lada,4]  *              0                             
+    18 buy[Kispolski,4]
+                    *              0                             
+    19 buy[Trabant,4]
+                    *              3                             
+    20 buy[Skoda,4] *             -3                             
+    21 buy[Wartburg,5]
+                    *              0                             
+    22 buy[Lada,5]  *              0                             
+    23 buy[Kispolski,5]
+                    *              0                             
+    24 buy[Trabant,5]
+                    *             -3                             
+    25 buy[Skoda,5] *              0                             
+    26 budget[0]              200000             0               
+    27 budget[1]                   0             0               
+    28 budget[2]               25000             0               
+    29 budget[3]               31000             0               
+    30 budget[4]               46000             0               
+    31 budget[5]              346000             0               
+    32 carInGarage[Wartburg,0]
+                                   0             0               
+    33 carInGarage[Lada,0]
+                                   0             0               
+    34 carInGarage[Kispolski,0]
+                                   0             0               
+    35 carInGarage[Trabant,0]
+                                   0             0               
+    36 carInGarage[Skoda,0]
+                                   0             0               
+    37 carInGarage[Wartburg,1]
+                                   0             0               
+    38 carInGarage[Lada,1]
+                                   4             0               
+    39 carInGarage[Kispolski,1]
+                                   0             0               
+    40 carInGarage[Trabant,1]
+                                   0             0               
+    41 carInGarage[Skoda,1]
+                                   0             0               
+    42 carInGarage[Wartburg,2]
+                                   0             0               
+    43 carInGarage[Lada,2]
+                                   0             0               
+    44 carInGarage[Kispolski,2]
+                                   0             0               
+    45 carInGarage[Trabant,2]
+                                   3             0               
+    46 carInGarage[Skoda,2]
+                                   0             0               
+    47 carInGarage[Wartburg,3]
+                                   0             0               
+    48 carInGarage[Lada,3]
+                                   0             0               
+    49 carInGarage[Kispolski,3]
+                                   0             0               
+    50 carInGarage[Trabant,3]
+                                   0             0               
+    51 carInGarage[Skoda,3]
+                                   3             0               
+    52 carInGarage[Wartburg,4]
+                                   0             0               
+    53 carInGarage[Lada,4]
+                                   0             0               
+    54 carInGarage[Kispolski,4]
+                                   0             0               
+    55 carInGarage[Trabant,4]
+                                   3             0               
+    56 carInGarage[Skoda,4]
+                                   0             0               
+    57 carInGarage[Wartburg,5]
+                                   0             0               
+    58 carInGarage[Lada,5]
+                                   0             0               
+    59 carInGarage[Kispolski,5]
+                                   0             0               
+    60 carInGarage[Trabant,5]
+                                   0             0               
+    61 carInGarage[Skoda,5]
+                                   0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
