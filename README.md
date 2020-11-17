@@ -9,3 +9,9 @@
 ## [DJ](https://github.com/bricsi0000000000000/mogya/tree/master/dj)
 
 ## [Könyvespolc](https://github.com/bricsi0000000000000/mogya/tree/master/konyvespolc)
+
+## [Bringafutár](https://github.com/bricsi0000000000000/mogya/tree/master/bringafutar)
+
+## [Edzésterv](https://github.com/bricsi0000000000000/mogya/tree/master/edzesterv)
+
+## [Ütemezés](https://github.com/bricsi0000000000000/mogya/tree/master/utemezes)
