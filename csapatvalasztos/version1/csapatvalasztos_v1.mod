@@ -35,5 +35,3 @@ kimenet:
 */
 
 end;
-
-# Ez egyáltalán nem jó még
