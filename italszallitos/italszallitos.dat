@@ -1,0 +1,34 @@
+set Factories :=
+Toltestava
+Komarom
+Dunaszerdahely
+;
+
+set Destinations :=
+Seregelyes
+Gyor
+Asvanyraro
+Szolnok
+;
+
+param factoryMaxAmount :=
+Toltestava      100
+Komarom         400
+Dunaszerdahely  250
+;
+
+param destinationMaxAmount :=
+Seregelyes    100
+Gyor          350
+Asvanyraro    50
+Szolnok       250
+;
+
+param distances :
+                Seregelyes	Gyor	Asvanyraro	Szolnok :=
+Toltestava	        80	     10	      35	      190	
+Komarom           	70	     35	      50	      150
+Dunaszerdahely	    120	     55	      80	      200
+;
+
+end;

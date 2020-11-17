@@ -1,0 +1,77 @@
+Problem:    italszallitos
+Rows:       11
+Columns:    12
+Non-zeros:  36
+Status:     OPTIMAL
+Objective:  Cost[Seregelyes] = 70000 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 MaxAmountToDestinations[Seregelyes]
+                    NL           100           100                         700 
+     2 MaxAmountToDestinations[Gyor]
+                    NL           350           350                       < eps
+     3 MaxAmountToDestinations[Asvanyraro]
+                    NL            50            50                       < eps
+     4 MaxAmountToDestinations[Szolnok]
+                    NL           250           250                       < eps
+     5 MaxAmountFromFactories[Toltestava]
+                    NU           100                         100         < eps
+     6 MaxAmountFromFactories[Komarom]
+                    NU           400                         400         < eps
+     7 MaxAmountFromFactories[Dunaszerdahely]
+                    B            250                         250 
+     8 Cost[Seregelyes]
+                    B          70000                             
+     9 Cost[Gyor]   B          97500                             
+    10 Cost[Asvanyraro]
+                    B          25000                             
+    11 Cost[Szolnok]
+                    B         500000                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 deliver[Toltestava,Seregelyes]
+                    NL             0             0                         100 
+     2 deliver[Komarom,Seregelyes]
+                    B            100             0               
+     3 deliver[Dunaszerdahely,Seregelyes]
+                    NL             0             0                         500 
+     4 deliver[Toltestava,Gyor]
+                    B            100             0               
+     5 deliver[Komarom,Gyor]
+                    B            250             0               
+     6 deliver[Dunaszerdahely,Gyor]
+                    NL             0             0                       < eps
+     7 deliver[Toltestava,Asvanyraro]
+                    NL             0             0                       < eps
+     8 deliver[Komarom,Asvanyraro]
+                    B             50             0               
+     9 deliver[Dunaszerdahely,Asvanyraro]
+                    NL             0             0                       < eps
+    10 deliver[Toltestava,Szolnok]
+                    NL             0             0                       < eps
+    11 deliver[Komarom,Szolnok]
+                    B              0             0               
+    12 deliver[Dunaszerdahely,Szolnok]
+                    B            250             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

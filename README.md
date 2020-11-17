@@ -15,3 +15,7 @@
 ## [Edzésterv](https://github.com/bricsi0000000000000/mogya/tree/master/edzesterv)
 
 ## [Ütemezés](https://github.com/bricsi0000000000000/mogya/tree/master/utemezes)
+
+## [Italszállítós](https://github.com/bricsi0000000000000/mogya/tree/master/italszallitos)
+
+## [Tétel kidolgozás](https://github.com/bricsi0000000000000/mogya/tree/master/tetelkidolgozas)
