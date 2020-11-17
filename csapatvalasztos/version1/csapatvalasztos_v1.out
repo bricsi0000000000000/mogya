@@ -1,0 +1,106 @@
+Problem:    csapatvalasztos
+Rows:       12
+Columns:    32 (32 integer, 32 binary)
+Non-zeros:  45
+Status:     INTEGER OPTIMAL
+Objective:  Love[Tibor] = 0 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 FillAllPositions[frontend]
+                                   1             1               
+     2 FillAllPositions[backend]
+                                   1             1               
+     3 FillAllPositions[database]
+                                   1             1               
+     4 FillAllPositions[css]
+                                   1             1               
+     5 FillAllPositions[agile]
+                                   1             1               
+     6 FillAllPositions[devops]
+                                   1             1               
+     7 Love[Tibor]                 0                             
+     8 Love[David]                 8                             
+     9 Love[Botond]               -2                             
+    10 Love[Bence]                 4                             
+    11 Love[Mark]                  0                             
+    12 Love[Balazs]                0                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 team[David,frontend]
+                    *              1             0             1 
+     2 team[Botond,frontend]
+                    *              0             0             1 
+     3 team[Bence,frontend]
+                    *              0             0             1 
+     4 team[Mark,frontend]
+                    *              0             0             1 
+     5 team[Balazs,frontend]
+                    *              0             0             1 
+     6 team[Tibor,backend]
+                    *              1             0             1 
+     7 team[David,backend]
+                    *              0             0             1 
+     8 team[Botond,backend]
+                    *              0             0             1 
+     9 team[Bence,backend]
+                    *              0             0             1 
+    10 team[Mark,backend]
+                    *              0             0             1 
+    11 team[Balazs,backend]
+                    *              0             0             1 
+    12 team[David,database]
+                    *              0             0             1 
+    13 team[Botond,database]
+                    *              1             0             1 
+    14 team[Bence,database]
+                    *              0             0             1 
+    15 team[Mark,database]
+                    *              0             0             1 
+    16 team[Balazs,database]
+                    *              0             0             1 
+    17 team[Tibor,css]
+                    *              1             0             1 
+    18 team[David,css]
+                    *              0             0             1 
+    19 team[Botond,css]
+                    *              0             0             1 
+    20 team[Bence,css]
+                    *              0             0             1 
+    21 team[Mark,css]
+                    *              0             0             1 
+    22 team[Balazs,css]
+                    *              0             0             1 
+    23 team[David,agile]
+                    *              0             0             1 
+    24 team[Botond,agile]
+                    *              1             0             1 
+    25 team[Bence,agile]
+                    *              0             0             1 
+    26 team[Mark,agile]
+                    *              0             0             1 
+    27 team[Balazs,agile]
+                    *              0             0             1 
+    28 team[David,devops]
+                    *              0             0             1 
+    29 team[Botond,devops]
+                    *              0             0             1 
+    30 team[Bence,devops]
+                    *              1             0             1 
+    31 team[Mark,devops]
+                    *              0             0             1 
+    32 team[Balazs,devops]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

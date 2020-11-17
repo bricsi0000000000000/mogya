@@ -1,0 +1,38 @@
+set People :=
+Tibor
+David
+Botond
+Bence
+Mark
+Balazs
+;
+
+set Skills :=
+frontend
+backend
+database
+css
+agile
+devops
+;
+
+param love :=
+Tibor    0    
+David    8  
+Botond  -1 
+Bence    4  
+Mark     3  
+Balazs  -1 
+;
+
+param knows :
+          frontend	backend	  database	css 	agile 	devops :=
+Tibor		      0       1   		   0       1  	  0	      0
+David         1       1          0       1      0       0
+Botond        0       0          1       0      1       0
+Bence         0       1          1       1      0       1       
+Mark          1       0          0       0      1       0
+Balazs        0       0          1       0      0       1
+;
+
+end;
