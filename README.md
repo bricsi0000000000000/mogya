@@ -19,3 +19,5 @@
 ## [Italszállítós](https://github.com/bricsi0000000000000/mogya/tree/master/italszallitos)
 
 ## [Tétel kidolgozás](https://github.com/bricsi0000000000000/mogya/tree/master/tetelkidolgozas)
+
+## [Tétel kidolgozás](https://github.com/bricsi0000000000000/mogya/tree/master/tetelkidolgozas)

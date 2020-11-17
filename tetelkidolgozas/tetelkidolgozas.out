@@ -1,9 +1,9 @@
 Problem:    tetelkidolgozas
-Rows:       15
+Rows:       11
 Columns:    25 (25 integer, 25 binary)
 Non-zeros:  75
 Status:     INTEGER OPTIMAL
-Objective:  OverallCost[Zsuzsi] = 5 (MINimum)
+Objective:  OverallCost = 40 (MINimum)
 
    No.   Row name        Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
@@ -27,16 +27,7 @@ Objective:  OverallCost[Zsuzsi] = 5 (MINimum)
                                    1             1             = 
     10 MakeSubject1[Marci]
                                    1             1             = 
-    11 OverallCost[Zsuzsi]
-                                   5                             
-    12 OverallCost[Dani]
-                                   8                             
-    13 OverallCost[Lilla]
-                                  10                             
-    14 OverallCost[Pisti]
-                                  30                             
-    15 OverallCost[Marci]
-                                   9                             
+    11 OverallCost                40                             
 
    No. Column name       Activity     Lower bound   Upper bound
 ------ ------------    ------------- ------------- -------------
@@ -51,21 +42,21 @@ Objective:  OverallCost[Zsuzsi] = 5 (MINimum)
      5 buy[SZGM,Marci]
                     *              0             0             1 
      6 buy[Matek2,Zsuzsi]
-                    *              1             0             1 
+                    *              0             0             1 
      7 buy[Matek2,Dani]
                     *              0             0             1 
      8 buy[Matek2,Lilla]
-                    *              0             0             1 
+                    *              1             0             1 
      9 buy[Matek2,Pisti]
                     *              0             0             1 
     10 buy[Matek2,Marci]
                     *              0             0             1 
     11 buy[Diszkretmatek,Zsuzsi]
-                    *              0             0             1 
+                    *              1             0             1 
     12 buy[Diszkretmatek,Dani]
                     *              0             0             1 
     13 buy[Diszkretmatek,Lilla]
-                    *              1             0             1 
+                    *              0             0             1 
     14 buy[Diszkretmatek,Pisti]
                     *              0             0             1 
     15 buy[Diszkretmatek,Marci]
@@ -77,9 +68,9 @@ Objective:  OverallCost[Zsuzsi] = 5 (MINimum)
     18 buy[Algo,Lilla]
                     *              0             0             1 
     19 buy[Algo,Pisti]
-                    *              0             0             1 
-    20 buy[Algo,Marci]
                     *              1             0             1 
+    20 buy[Algo,Marci]
+                    *              0             0             1 
     21 buy[OOP,Zsuzsi]
                     *              0             0             1 
     22 buy[OOP,Dani]
@@ -87,9 +78,9 @@ Objective:  OverallCost[Zsuzsi] = 5 (MINimum)
     23 buy[OOP,Lilla]
                     *              0             0             1 
     24 buy[OOP,Pisti]
-                    *              1             0             1 
-    25 buy[OOP,Marci]
                     *              0             0             1 
+    25 buy[OOP,Marci]
+                    *              1             0             1 
 
 Integer feasibility conditions:
 
