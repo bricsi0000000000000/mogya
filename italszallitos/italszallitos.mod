@@ -15,8 +15,8 @@ s.t. MaxAmountToDestinations {destination in Destinations}:
 s.t. MaxAmountFromFactories {factory in Factories}:
   sum {destination in Destinations} deliver[factory, destination] <= factoryMaxAmount[factory];
 
-minimize Cost {destination in Destinations}:
-  sum {factory in Factories} distances[factory, destination] * 10 * deliver[factory, destination];
+minimize Cost:
+  sum {factory in Factories, destination in Destinations} distances[factory, destination] * 10 * deliver[factory, destination];
 
 solve;
 
@@ -29,8 +29,8 @@ for {factory in Factories}{
 Kimenet:
 
      Toltestava     10000 Ft
-        Komarom    182500 Ft
- Dunaszerdahely    500000 Ft
+        Komarom    470000 Ft
+ Dunaszerdahely    137500 Ft
 
 */
 

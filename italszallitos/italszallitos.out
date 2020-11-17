@@ -1,60 +1,54 @@
 Problem:    italszallitos
-Rows:       11
+Rows:       8
 Columns:    12
 Non-zeros:  36
 Status:     OPTIMAL
-Objective:  Cost[Seregelyes] = 70000 (MINimum)
+Objective:  Cost = 617500 (MINimum)
 
    No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
 ------ ------------ -- ------------- ------------- ------------- -------------
      1 MaxAmountToDestinations[Seregelyes]
-                    NL           100           100                         700 
+                    NL           100           100                        1000 
      2 MaxAmountToDestinations[Gyor]
-                    NL           350           350                       < eps
+                    NL           350           350                         550 
      3 MaxAmountToDestinations[Asvanyraro]
-                    NL            50            50                       < eps
+                    NL            50            50                         800 
      4 MaxAmountToDestinations[Szolnok]
-                    NL           250           250                       < eps
+                    NL           250           250                        1800 
      5 MaxAmountFromFactories[Toltestava]
-                    NU           100                         100         < eps
+                    NU           100                         100          -450 
      6 MaxAmountFromFactories[Komarom]
-                    NU           400                         400         < eps
+                    NU           400                         400          -300 
      7 MaxAmountFromFactories[Dunaszerdahely]
                     B            250                         250 
-     8 Cost[Seregelyes]
-                    B          70000                             
-     9 Cost[Gyor]   B          97500                             
-    10 Cost[Asvanyraro]
-                    B          25000                             
-    11 Cost[Szolnok]
-                    B         500000                             
+     8 Cost         B         617500                             
 
    No. Column name  St   Activity     Lower bound   Upper bound    Marginal
 ------ ------------ -- ------------- ------------- ------------- -------------
      1 deliver[Toltestava,Seregelyes]
-                    NL             0             0                         100 
+                    NL             0             0                         250 
      2 deliver[Komarom,Seregelyes]
                     B            100             0               
      3 deliver[Dunaszerdahely,Seregelyes]
-                    NL             0             0                         500 
+                    NL             0             0                         200 
      4 deliver[Toltestava,Gyor]
                     B            100             0               
      5 deliver[Komarom,Gyor]
-                    B            250             0               
+                    NL             0             0                         100 
      6 deliver[Dunaszerdahely,Gyor]
-                    NL             0             0                       < eps
+                    B            250             0               
      7 deliver[Toltestava,Asvanyraro]
                     NL             0             0                       < eps
      8 deliver[Komarom,Asvanyraro]
                     B             50             0               
      9 deliver[Dunaszerdahely,Asvanyraro]
-                    NL             0             0                       < eps
-    10 deliver[Toltestava,Szolnok]
-                    NL             0             0                       < eps
-    11 deliver[Komarom,Szolnok]
                     B              0             0               
-    12 deliver[Dunaszerdahely,Szolnok]
+    10 deliver[Toltestava,Szolnok]
+                    NL             0             0                         550 
+    11 deliver[Komarom,Szolnok]
                     B            250             0               
+    12 deliver[Dunaszerdahely,Szolnok]
+                    NL             0             0                         200 
 
 Karush-Kuhn-Tucker optimality conditions:
 
