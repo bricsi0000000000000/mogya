@@ -1,0 +1,211 @@
+Problem:    csapatvalasztos_v2
+Rows:       55
+Columns:    42 (36 integer, 36 binary)
+Non-zeros:  99
+Status:     INTEGER OPTIMAL
+Objective:  Conflicts = 0 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Constraint1[frontend]
+                                   1             1               
+     2 Constraint1[backend]
+                                   1             1               
+     3 Constraint1[database]
+                                 1.5             1               
+     4 Constraint1[css]
+                                   1             1               
+     5 Constraint1[agile]
+                                   1             1               
+     6 Constraint1[devops]
+                                   1             1               
+     7 Constraint2[Tibor,Tibor]
+                                   0                           1 
+     8 Constraint2[Tibor,David]
+                                 0.5                           1 
+     9 Constraint2[Tibor,Botond]
+                                   0                           1 
+    10 Constraint2[Tibor,Bence]
+                                   0                           1 
+    11 Constraint2[Tibor,Mark]
+                                   0                           1 
+    12 Constraint2[Tibor,Balazs]
+                                   0                           1 
+    13 Constraint2[David,Tibor]
+                                 0.5                           1 
+    14 Constraint2[David,David]
+                                   0                           1 
+    15 Constraint2[David,Botond]
+                                   0                           1 
+    16 Constraint2[David,Bence]
+                                   0                           1 
+    17 Constraint2[David,Mark]
+                                   0                           1 
+    18 Constraint2[David,Balazs]
+                                   0                           1 
+    19 Constraint2[Botond,Tibor]
+                                   0                           1 
+    20 Constraint2[Botond,David]
+                                   0                           1 
+    21 Constraint2[Botond,Botond]
+                                   0                           1 
+    22 Constraint2[Botond,Bence]
+                                   0                           1 
+    23 Constraint2[Botond,Mark]
+                                   0                           1 
+    24 Constraint2[Botond,Balazs]
+                                   1                           1 
+    25 Constraint2[Bence,Tibor]
+                                   0                           1 
+    26 Constraint2[Bence,David]
+                                   0                           1 
+    27 Constraint2[Bence,Botond]
+                                   0                           1 
+    28 Constraint2[Bence,Bence]
+                                   0                           1 
+    29 Constraint2[Bence,Mark]
+                                   1                           1 
+    30 Constraint2[Bence,Balazs]
+                                   0                           1 
+    31 Constraint2[Mark,Tibor]
+                                   0                           1 
+    32 Constraint2[Mark,David]
+                                   0                           1 
+    33 Constraint2[Mark,Botond]
+                                   0                           1 
+    34 Constraint2[Mark,Bence]
+                                   1                           1 
+    35 Constraint2[Mark,Mark]
+                                   0                           1 
+    36 Constraint2[Mark,Balazs]
+                                   1                           1 
+    37 Constraint2[Balazs,Tibor]
+                                   0                           1 
+    38 Constraint2[Balazs,David]
+                                   0                           1 
+    39 Constraint2[Balazs,Botond]
+                                   1                           1 
+    40 Constraint2[Balazs,Bence]
+                                   0                           1 
+    41 Constraint2[Balazs,Mark]
+                                   1                           1 
+    42 Constraint2[Balazs,Balazs]
+                                   0                           1 
+    43 Constraint3[David,Tibor]
+                                 0.5                           1 
+    44 Constraint3[Bence,Mark]
+                                   1                           1 
+    45 Constraint3[Balazs,Botond]
+                                   1                           1 
+    46 Constraint3[Balazs,Mark]
+                                   1                           1 
+    47 Constraint4[Tibor,David]
+                               -0.25                          -0 
+    48 Constraint4[David,Tibor]
+                               -0.25                          -0 
+    49 Constraint4[Botond,Balazs]
+                                -0.5                          -0 
+    50 Constraint4[Bence,Mark]
+                                -0.5                          -0 
+    51 Constraint4[Mark,Bence]
+                                -0.5                          -0 
+    52 Constraint4[Mark,Balazs]
+                                -0.5                          -0 
+    53 Constraint4[Balazs,Botond]
+                                -0.5                          -0 
+    54 Constraint4[Balazs,Mark]
+                                -0.5                          -0 
+    55 Conflicts                   0                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 join[Tibor]                 0                             
+     2 join[David]               0.5                             
+     3 join[Botond]              0.5                             
+     4 join[Bence]               0.5                             
+     5 join[Mark]                0.5                             
+     6 join[Balazs]              0.5                             
+     7 conflict[Tibor,David]
+                    *              0             0             1 
+     8 conflict[David,Tibor]
+                    *              0             0             1 
+     9 conflict[Botond,Balazs]
+                    *              0             0             1 
+    10 conflict[Bence,Mark]
+                    *              0             0             1 
+    11 conflict[Mark,Bence]
+                    *              0             0             1 
+    12 conflict[Mark,Balazs]
+                    *              0             0             1 
+    13 conflict[Balazs,Botond]
+                    *              0             0             1 
+    14 conflict[Balazs,Mark]
+                    *              0             0             1 
+    15 conflict[Tibor,Tibor]
+                    *              0             0             1 
+    16 conflict[Tibor,Botond]
+                    *              0             0             1 
+    17 conflict[Tibor,Bence]
+                    *              0             0             1 
+    18 conflict[Tibor,Mark]
+                    *              0             0             1 
+    19 conflict[Tibor,Balazs]
+                    *              0             0             1 
+    20 conflict[David,David]
+                    *              0             0             1 
+    21 conflict[David,Botond]
+                    *              0             0             1 
+    22 conflict[David,Bence]
+                    *              0             0             1 
+    23 conflict[David,Mark]
+                    *              0             0             1 
+    24 conflict[David,Balazs]
+                    *              0             0             1 
+    25 conflict[Botond,Tibor]
+                    *              0             0             1 
+    26 conflict[Botond,David]
+                    *              0             0             1 
+    27 conflict[Botond,Botond]
+                    *              0             0             1 
+    28 conflict[Botond,Bence]
+                    *              0             0             1 
+    29 conflict[Botond,Mark]
+                    *              0             0             1 
+    30 conflict[Bence,Tibor]
+                    *              0             0             1 
+    31 conflict[Bence,David]
+                    *              0             0             1 
+    32 conflict[Bence,Botond]
+                    *              0             0             1 
+    33 conflict[Bence,Bence]
+                    *              0             0             1 
+    34 conflict[Bence,Balazs]
+                    *              0             0             1 
+    35 conflict[Mark,Tibor]
+                    *              0             0             1 
+    36 conflict[Mark,David]
+                    *              0             0             1 
+    37 conflict[Mark,Botond]
+                    *              0             0             1 
+    38 conflict[Mark,Mark]
+                    *              0             0             1 
+    39 conflict[Balazs,Tibor]
+                    *              0             0             1 
+    40 conflict[Balazs,David]
+                    *              0             0             1 
+    41 conflict[Balazs,Bence]
+                    *              0             0             1 
+    42 conflict[Balazs,Balazs]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

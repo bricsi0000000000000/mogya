@@ -1,0 +1,44 @@
+param numberOfDays := 5;
+
+param szuperbigyoIncome :=
+1 543
+2 463
+3 23
+4 342
+5 653
+;
+
+set Orders :=
+order1
+order2
+order3
+order4
+order5
+;
+
+param profit :=
+order1 523
+order2 543
+order3 876
+order4 273
+order5 743
+;
+
+param szuperbigyoNeeded :=
+order1  54
+order2  65
+order3  23
+order4  75
+order5  12
+;
+
+param manufacturingDay :=
+order1  5
+order2  3
+order3  1
+order4  2
+order5  4
+;
+
+
+end;

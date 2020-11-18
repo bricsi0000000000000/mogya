@@ -28,5 +28,14 @@ Mindenkit csak egyszer választhatok.
 
 # Version 2
 
+A *mennyire szeretjük* itt már nincs.
+
 Bizonyos emberek nem szeretik egymást.
 
+Tibor - Dávid
+
+Bence - Márk
+
+Botond - Balázs
+
+Márk - Balázs
