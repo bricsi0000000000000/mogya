@@ -1,21 +1,21 @@
 # Túristajel festés
 
-
-
-Egy adott túraútvonalon haladnak végig egy csoport, céljuk a turista jelzések újrafestése. Biciklivel mennek és mindenkinek adott, hogy a jelzés festés egyes lépéseit milyen sebességgel képes elvégezni. A feladatok nem előzhetik meg egymást és 8 órát dolgoznak összesen, minden órában 50 percig dolgoznak és 10 percet pihennek. Ki mikor melyik feladatot végezze ahhoz, hogy a lehető legtovább eljussanak a feladattal?
-
-
-
 Túristajeleket festünk fák oldalára.
 
-Meg van a sorrend ami szerint haladunk.
+A feladatok nem előzhetik meg egymást.
+
+Egy ember egyszerre csak egy dolgot csinálhat.
 
 1. hántás
 2. fehér alap festése
 3. jel festése
 4. lakkozás
 
-8 szakaszt festünk
+8 órát dolgoznak összesen.
+
+Minden órában 50 percig dolgoznak és 10 percet pihennek.
+
+**Cél:** Ki mikor melyik feladatot végezze ahhoz, hogy a lehető legtovább eljussanak a feladattal?
 
 |            | Andi  | Béla  | Cili  |  Dia  | Elek  | Feri  | Gabi  | Hedvig |
 | :--------- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :----: |
