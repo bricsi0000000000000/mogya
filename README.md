@@ -23,3 +23,5 @@
 ## [Csapataválasztós](https://github.com/bricsi0000000000000/mogya/tree/master/csapatvalasztos)
 
 ## [Túristajel festés](https://github.com/bricsi0000000000000/mogya/tree/master/turistajelfestes)
+
+## [Szuperbigyó](https://github.com/bricsi0000000000000/mogya/tree/master/szuperbigyo)
