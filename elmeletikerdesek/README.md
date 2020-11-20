@@ -2,6 +2,8 @@
 
 Egy MILP modellben minden változónak egészértékűnek kell lennie. `hamis`
 
+Egy MILP modellben minden változónak binárisnak kell lennie. `hamis`
+
 ---
 
 LP modellekben legalább annyi egyenlőtlenségnek kell lenni, mint ahány egyenlet van. `hamis`
@@ -29,10 +31,6 @@ GMPL-ben a `var` deklarációknak mindenképp a `param`-ok után kell lennie. `h
 ---
 
 A magyar módszert a set covering (halmazlefedési) feladat megoldására dolgozták ki. `hamis`
-
----
-
-Egy MILP modellben minden változónak binárisnak kell lennie. `hamis`
 
 ---
 
@@ -76,6 +74,8 @@ LP modellben nem megengedett két folytonos változó összeszorzása, de MILP m
 
 Egy változónak legfeljebb két alsó indexe lehet. `hamis`
 
+Minden paraméternek legfeljebb két dimenziója/alsóindexe lehet GMPL-ben. `hamis`
+
 ---
 
 Halmazok leszűkítésében (kapcsoson belül a kettőspont utáni rész) használhatók a paraméterek. `igaz`
@@ -87,3 +87,39 @@ Lehet a modellben olyan korlátozás, melyben a modell összes változója szere
 ---
 
 Maximalizálási feladat esetében a B&B algoritmus korlátozó függvénye felső korlátod ad. `igaz`
+
+---
+
+Redundáns változókból tetszőlegesen(de véges) sok bevezethető `igaz`
+
+---
+
+Szigorúan kisebb és nagyobb típusú korlátozások csak LP modellekben megengedettek, MILP-ekben nem. `hamis`
+
+---
+
+Nem szükséges minden változónak szerepelni a célfüggvényben. `igaz`
+
+---
+
+GMPL-ben egyszerre több célfüggvény is megadható `hamis`
+
+---
+
+Relaxált modell optimális megoldása nem lehet jobb, csak rosszabb, mint az eredeti MILP modellé. `hamis`
+
+---
+
+A B&B algoritmusok nem LP feladatok megoldására lettek kidolgozva. `igaz`
+
+---
+
+Egy feladatnak több optimális megoldása is lehet. `igaz`
+
+---
+
+LP modellekben szerepelhetnek egész változók, ha csak egy korlátozásban és a célfüggvényben jelennek meg. `hamis`
+
+---
+
+A solve; utáni kód feltételezheti, hogy a változók már rendelkeznek fix hozzárendelt értékekkel. `igaz`
