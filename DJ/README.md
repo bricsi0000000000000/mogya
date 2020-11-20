@@ -2,13 +2,13 @@
 
 Feladatunk egy zenei felhozatal optimális megtervezése.
 
-Minden vendégnek ismerjük a zenei ízlését és tudjuk, hogy a 3. olyan sázmnál, amit nem szeretnek, elhagyják a helyszínt.
+Minden vendégnek ismerjük a zenei ízlését és tudjuk, hogy a 3. olyan számnál, amit nem szeretnek, elhagyják a helyszínt.
 
 Készítsünk olyan lejátszási listát, melyben a lehető legtöbb szám szerepel úgy, hogy mindegy vendég a helyszínen maradjon.
 
 ## Version 2
 
-10 szamból áll a tracklist
+10 számból áll a tracklist
 
 Emberek:
 

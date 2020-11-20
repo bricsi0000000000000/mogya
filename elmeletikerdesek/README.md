@@ -32,6 +32,8 @@ GMPL-ben a `var` deklarációknak mindenképp a `param`-ok után kell lennie. `h
 
 A magyar módszert a set covering (halmazlefedési) feladat megoldására dolgozták ki. `hamis`
 
+> **Megoldás**: [A magyar módszer egy algoritmus, segítségével páros gráfokban lehet maximális elemszámú párosítást keresni polinom időben](https://hu.wikipedia.org/wiki/Magyar_m%C3%B3dszer)
+
 ---
 
 LP modellekben legalább annyi korlátozásnak kell lenni, mint ahány változó van. `hamis`
