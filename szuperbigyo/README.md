@@ -1,16 +1,4 @@
-# ZH gyakorló
-
-## Igaz-hamis kérdések
-
-1. Egy MILP modellben minden változónak egészértékűnek kell lennie. `hamis`
-2. LP modellekben legalább annyi egyenlőtlenségnek kell lenni, mint ahány egyenlet van. `hamis`
-3. Nem lehet optimális megoldás egy LP/MILP feladat esetében az, ha minden változó értéke 0. `hamis`
-4. A big-M korlátozások csak LP modellekben fordulhatnak elő. `hamis`
-5. A (szimplex) második fázis feladata, hogy találjon egy bázismegoldást. `hamis`
-6. GMPL-ben a var deklarációknak mindenképp a param-ok után kell lennie. `hamis`
-7. A magyar módszert a set covering (halmzlefedési) feladat megoldására dolgozták ki. `hamis`
-
-## Gyakorlati feladat *(elégséges szint)*
+# Szuperbigyó
 
 Célunk egy cég esetén úgy eldönteni az elvállalt munkákat, hogy közben a profitunkat maximalizáljuk.
 
@@ -20,7 +8,7 @@ Vannak megrendelések, amikről eldönthetjük, hogy elvállaljuk-e őket, vagy 
 
 Szuperbigyót természetesen tudunk raktározni.
 
-### Lehetséges bővítések
+## Lehetséges bővítések
 
 1. A szuperbigyó raktározásra van felső kapacitásunk. Ha egy nap ennél több marad meg belőle, akkor az elveszik.
 2. Többféle nyersanyaggal dolgozunk, és minden termékhez adott, hogy melyikből mennyit használ, valamint mindegyikről adott, hogy menyit raktározunk el. 

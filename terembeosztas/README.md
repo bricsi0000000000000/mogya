@@ -1,20 +1,4 @@
-# ZH
-
-## Igaz-hamis kérdések
-
-1. Egy MILP modellben minden változónak binárisnak kell lennie. `hamis`
-2. LP modellekben legalább annyi korlátozásnak kell lenni, mint ahány változó van. `hamis`
-3. Előfordulhat, hogy egy LP modellnek pontosan 42 megoldása van. `hamis`
-
-   **Megoldás**: vagy van 1 optimális megoldás, vagy végtelen sok optimális megoldás van, vagy túlkorlátoztuk, vagy nincs megoldás.
-4. A szimplex módszer őnmagában elég MILP feladatok megoldására. `hamis`
-5. A (szimplex) első fázis feladata, hogy megtalálja az optimális megoldást. `hamis`
-
-   bázist, aztán az optimálist találja meg
-6. A GMPL case-insensitive nyelv. `hamis`
-7. MILP-eket könnyebben (gyorsabban) meg lehet oldani, mint LP-ket. `hamis`
-
-## Gyakorlati feladat *(elégséges szint)*
+# Terembeosztás
 
 A célunk a Gazdinfós képzés terembeosztását megcsinálni.
 
@@ -29,7 +13,7 @@ Adottak:
 
 Egyenlőre csak egy napot szeretnénk beosztani, reggel 8-tól delután 4-ig. A cél, hogy minél kevesebb terembérleti díjat kelljen fizetni. Ebben a körben még nem kell megmondani, melyik óra mikor kezdődik, csak hogy melyik kurzus hol lesz.
 
-### Lehetséges bővítések
+## Lehetséges bővítések
 
 1. Azt is pontosan meg kell mondani, hogy melyik óra mikor kezdődjön.
 2. Az előzőre épülve: adott az oktatóknak egy halmaza, valamint minden tárgyhoz, hogy ki tartja. Értelemszerűen egy oktató nem tud egyszerre két helyen lenni.
