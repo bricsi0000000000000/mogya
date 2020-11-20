@@ -40,6 +40,4 @@ order4  2
 order5  4
 ;
 
-param szuperbigyoMaxCapacity := 45;
-
 end;

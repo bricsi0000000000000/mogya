@@ -4,7 +4,7 @@ Autókat gyűjtünk.
 
 5 egymást követő napon tervezünk vásárolni egy Trabantot, Ladát, Wartburgot, Skodát és Kispolskit.
 
-Minden nap pontosan egy autóval szeretnénk megvenni, azonban az autók ára  naponta változik.
+Minden nap pontosan egy autóval szeretnénk megvenni, azonban az autók ára naponta változik.
 
 **Cél**: Milyen sorrendben vásároljuk meg az autókat, hogy a kollekciónk teljes legyen a lehető legkisebb költséges mellett?
 

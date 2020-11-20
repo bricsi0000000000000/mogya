@@ -1,0 +1,65 @@
+Problem:    puskazas
+Rows:       9
+Columns:    12 (12 integer, 12 binary)
+Non-zeros:  36
+Status:     INTEGER OPTIMAL
+Objective:  Cost = 14 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 AllClassOnce[Dani]
+                                   1             1               
+     2 AllClassOnce[Kristof]
+                                   1             1               
+     3 AllClassOnce[Isti]
+                                   1             1               
+     4 AllClassOnce[Niki]
+                                   1             1               
+     5 OnePersonOneClass[Dani]
+                                   1                           1 
+     6 OnePersonOneClass[Kristof]
+                                   1                           1 
+     7 OnePersonOneClass[Isti]
+                                   1                           1 
+     8 OnePersonOneClass[Niki]
+                                   1                           1 
+     9 Cost                       14                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 making[AI,Dani]
+                    *              0             0             1 
+     2 making[Halo,Dani]
+                    *              1             0             1 
+     3 making[OS,Dani]
+                    *              0             0             1 
+     4 making[AI,Kristof]
+                    *              0             0             1 
+     5 making[Halo,Kristof]
+                    *              1             0             1 
+     6 making[OS,Kristof]
+                    *              0             0             1 
+     7 making[AI,Isti]
+                    *              1             0             1 
+     8 making[Halo,Isti]
+                    *              0             0             1 
+     9 making[OS,Isti]
+                    *              0             0             1 
+    10 making[AI,Niki]
+                    *              0             0             1 
+    11 making[Halo,Niki]
+                    *              1             0             1 
+    12 making[OS,Niki]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

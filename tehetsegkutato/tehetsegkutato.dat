@@ -1,0 +1,14 @@
+set People := Gizike DJSanyee Rockkati TucTuci MsLady Belaba Maunika Popapi;
+
+param sms:=
+    Gizike      12
+    DJSanyee    23
+    Rockkati    123
+    TucTuci     45
+    MsLady      369
+    Belaba      125
+    Maunika     255
+    Popapi      1
+;
+
+end;

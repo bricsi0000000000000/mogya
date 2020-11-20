@@ -1,0 +1,341 @@
+Problem:    futos
+Rows:       39
+Columns:    120 (120 integer, 120 binary)
+Non-zeros:  480
+Status:     INTEGER NON-OPTIMAL
+Objective:  Time = 1166.944036 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 EgySzakasztEgyEmber[1]
+                                   1             1             = 
+     2 EgySzakasztEgyEmber[2]
+                                   1             1             = 
+     3 EgySzakasztEgyEmber[3]
+                                   1             1             = 
+     4 EgySzakasztEgyEmber[4]
+                                   1             1             = 
+     5 EgySzakasztEgyEmber[5]
+                                   1             1             = 
+     6 EgySzakasztEgyEmber[6]
+                                   1             1             = 
+     7 EgySzakasztEgyEmber[7]
+                                   1             1             = 
+     8 EgySzakasztEgyEmber[8]
+                                   1             1             = 
+     9 EgySzakasztEgyEmber[9]
+                                   1             1             = 
+    10 EgySzakasztEgyEmber[10]
+                                   1             1             = 
+    11 EgySzakasztEgyEmber[11]
+                                   1             1             = 
+    12 EgySzakasztEgyEmber[12]
+                                   1             1             = 
+    13 EgySzakasztEgyEmber[13]
+                                   1             1             = 
+    14 EgySzakasztEgyEmber[14]
+                                   1             1             = 
+    15 EgySzakasztEgyEmber[15]
+                                   1             1             = 
+    16 EgySzakasztEgyEmber[16]
+                                   1             1             = 
+    17 EgySzakasztEgyEmber[17]
+                                   1             1             = 
+    18 EgySzakasztEgyEmber[18]
+                                   1             1             = 
+    19 EgySzakasztEgyEmber[19]
+                                   1             1             = 
+    20 EgySzakasztEgyEmber[20]
+                                   1             1             = 
+    21 EgySzakasztEgyEmber[21]
+                                   1             1             = 
+    22 EgySzakasztEgyEmber[22]
+                                   1             1             = 
+    23 EgySzakasztEgyEmber[23]
+                                   1             1             = 
+    24 EgySzakasztEgyEmber[24]
+                                   1             1             = 
+    25 EgySzakasztEgyEmber[25]
+                                   1             1             = 
+    26 EgySzakasztEgyEmber[26]
+                                   1             1             = 
+    27 EgySzakasztEgyEmber[27]
+                                   1             1             = 
+    28 EgySzakasztEgyEmber[28]
+                                   1             1             = 
+    29 EgySzakasztEgyEmber[29]
+                                   1             1             = 
+    30 EgySzakasztEgyEmber[30]
+                                   1             1             = 
+    31 LegalabbAnnyit[Alina]
+                             29.9698            20               
+    32 LegalabbAnnyit[Borcsa]
+                             57.2967            15               
+    33 LegalabbAnnyit[Csilla]
+                             99.9765            50               
+    34 LegalabbAnnyit[Dia]
+                             42.0115            42               
+    35 LegfeljebbAnnyit[Alina]
+                             29.9698                          30 
+    36 LegfeljebbAnnyit[Borcsa]
+                             57.2967                          80 
+    37 LegfeljebbAnnyit[Csilla]
+                             99.9765                         100 
+    38 LegfeljebbAnnyit[Dia]
+                             42.0115                          84 
+    39 Time                  1166.94                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 kiMelyikSzakasztKapja[Alina,1]
+                    *              0             0             1 
+     2 kiMelyikSzakasztKapja[Borcsa,1]
+                    *              0             0             1 
+     3 kiMelyikSzakasztKapja[Csilla,1]
+                    *              1             0             1 
+     4 kiMelyikSzakasztKapja[Dia,1]
+                    *              0             0             1 
+     5 kiMelyikSzakasztKapja[Alina,2]
+                    *              0             0             1 
+     6 kiMelyikSzakasztKapja[Borcsa,2]
+                    *              0             0             1 
+     7 kiMelyikSzakasztKapja[Csilla,2]
+                    *              0             0             1 
+     8 kiMelyikSzakasztKapja[Dia,2]
+                    *              1             0             1 
+     9 kiMelyikSzakasztKapja[Alina,3]
+                    *              0             0             1 
+    10 kiMelyikSzakasztKapja[Borcsa,3]
+                    *              1             0             1 
+    11 kiMelyikSzakasztKapja[Csilla,3]
+                    *              0             0             1 
+    12 kiMelyikSzakasztKapja[Dia,3]
+                    *              0             0             1 
+    13 kiMelyikSzakasztKapja[Alina,4]
+                    *              0             0             1 
+    14 kiMelyikSzakasztKapja[Borcsa,4]
+                    *              0             0             1 
+    15 kiMelyikSzakasztKapja[Csilla,4]
+                    *              1             0             1 
+    16 kiMelyikSzakasztKapja[Dia,4]
+                    *              0             0             1 
+    17 kiMelyikSzakasztKapja[Alina,5]
+                    *              0             0             1 
+    18 kiMelyikSzakasztKapja[Borcsa,5]
+                    *              1             0             1 
+    19 kiMelyikSzakasztKapja[Csilla,5]
+                    *              0             0             1 
+    20 kiMelyikSzakasztKapja[Dia,5]
+                    *              0             0             1 
+    21 kiMelyikSzakasztKapja[Alina,6]
+                    *              0             0             1 
+    22 kiMelyikSzakasztKapja[Borcsa,6]
+                    *              1             0             1 
+    23 kiMelyikSzakasztKapja[Csilla,6]
+                    *              0             0             1 
+    24 kiMelyikSzakasztKapja[Dia,6]
+                    *              0             0             1 
+    25 kiMelyikSzakasztKapja[Alina,7]
+                    *              0             0             1 
+    26 kiMelyikSzakasztKapja[Borcsa,7]
+                    *              0             0             1 
+    27 kiMelyikSzakasztKapja[Csilla,7]
+                    *              1             0             1 
+    28 kiMelyikSzakasztKapja[Dia,7]
+                    *              0             0             1 
+    29 kiMelyikSzakasztKapja[Alina,8]
+                    *              1             0             1 
+    30 kiMelyikSzakasztKapja[Borcsa,8]
+                    *              0             0             1 
+    31 kiMelyikSzakasztKapja[Csilla,8]
+                    *              0             0             1 
+    32 kiMelyikSzakasztKapja[Dia,8]
+                    *              0             0             1 
+    33 kiMelyikSzakasztKapja[Alina,9]
+                    *              0             0             1 
+    34 kiMelyikSzakasztKapja[Borcsa,9]
+                    *              0             0             1 
+    35 kiMelyikSzakasztKapja[Csilla,9]
+                    *              0             0             1 
+    36 kiMelyikSzakasztKapja[Dia,9]
+                    *              1             0             1 
+    37 kiMelyikSzakasztKapja[Alina,10]
+                    *              0             0             1 
+    38 kiMelyikSzakasztKapja[Borcsa,10]
+                    *              0             0             1 
+    39 kiMelyikSzakasztKapja[Csilla,10]
+                    *              1             0             1 
+    40 kiMelyikSzakasztKapja[Dia,10]
+                    *              0             0             1 
+    41 kiMelyikSzakasztKapja[Alina,11]
+                    *              1             0             1 
+    42 kiMelyikSzakasztKapja[Borcsa,11]
+                    *              0             0             1 
+    43 kiMelyikSzakasztKapja[Csilla,11]
+                    *              0             0             1 
+    44 kiMelyikSzakasztKapja[Dia,11]
+                    *              0             0             1 
+    45 kiMelyikSzakasztKapja[Alina,12]
+                    *              0             0             1 
+    46 kiMelyikSzakasztKapja[Borcsa,12]
+                    *              1             0             1 
+    47 kiMelyikSzakasztKapja[Csilla,12]
+                    *              0             0             1 
+    48 kiMelyikSzakasztKapja[Dia,12]
+                    *              0             0             1 
+    49 kiMelyikSzakasztKapja[Alina,13]
+                    *              0             0             1 
+    50 kiMelyikSzakasztKapja[Borcsa,13]
+                    *              1             0             1 
+    51 kiMelyikSzakasztKapja[Csilla,13]
+                    *              0             0             1 
+    52 kiMelyikSzakasztKapja[Dia,13]
+                    *              0             0             1 
+    53 kiMelyikSzakasztKapja[Alina,14]
+                    *              0             0             1 
+    54 kiMelyikSzakasztKapja[Borcsa,14]
+                    *              0             0             1 
+    55 kiMelyikSzakasztKapja[Csilla,14]
+                    *              0             0             1 
+    56 kiMelyikSzakasztKapja[Dia,14]
+                    *              1             0             1 
+    57 kiMelyikSzakasztKapja[Alina,15]
+                    *              0             0             1 
+    58 kiMelyikSzakasztKapja[Borcsa,15]
+                    *              0             0             1 
+    59 kiMelyikSzakasztKapja[Csilla,15]
+                    *              1             0             1 
+    60 kiMelyikSzakasztKapja[Dia,15]
+                    *              0             0             1 
+    61 kiMelyikSzakasztKapja[Alina,16]
+                    *              0             0             1 
+    62 kiMelyikSzakasztKapja[Borcsa,16]
+                    *              0             0             1 
+    63 kiMelyikSzakasztKapja[Csilla,16]
+                    *              1             0             1 
+    64 kiMelyikSzakasztKapja[Dia,16]
+                    *              0             0             1 
+    65 kiMelyikSzakasztKapja[Alina,17]
+                    *              0             0             1 
+    66 kiMelyikSzakasztKapja[Borcsa,17]
+                    *              1             0             1 
+    67 kiMelyikSzakasztKapja[Csilla,17]
+                    *              0             0             1 
+    68 kiMelyikSzakasztKapja[Dia,17]
+                    *              0             0             1 
+    69 kiMelyikSzakasztKapja[Alina,18]
+                    *              0             0             1 
+    70 kiMelyikSzakasztKapja[Borcsa,18]
+                    *              0             0             1 
+    71 kiMelyikSzakasztKapja[Csilla,18]
+                    *              1             0             1 
+    72 kiMelyikSzakasztKapja[Dia,18]
+                    *              0             0             1 
+    73 kiMelyikSzakasztKapja[Alina,19]
+                    *              0             0             1 
+    74 kiMelyikSzakasztKapja[Borcsa,19]
+                    *              0             0             1 
+    75 kiMelyikSzakasztKapja[Csilla,19]
+                    *              1             0             1 
+    76 kiMelyikSzakasztKapja[Dia,19]
+                    *              0             0             1 
+    77 kiMelyikSzakasztKapja[Alina,20]
+                    *              0             0             1 
+    78 kiMelyikSzakasztKapja[Borcsa,20]
+                    *              0             0             1 
+    79 kiMelyikSzakasztKapja[Csilla,20]
+                    *              0             0             1 
+    80 kiMelyikSzakasztKapja[Dia,20]
+                    *              1             0             1 
+    81 kiMelyikSzakasztKapja[Alina,21]
+                    *              0             0             1 
+    82 kiMelyikSzakasztKapja[Borcsa,21]
+                    *              0             0             1 
+    83 kiMelyikSzakasztKapja[Csilla,21]
+                    *              1             0             1 
+    84 kiMelyikSzakasztKapja[Dia,21]
+                    *              0             0             1 
+    85 kiMelyikSzakasztKapja[Alina,22]
+                    *              1             0             1 
+    86 kiMelyikSzakasztKapja[Borcsa,22]
+                    *              0             0             1 
+    87 kiMelyikSzakasztKapja[Csilla,22]
+                    *              0             0             1 
+    88 kiMelyikSzakasztKapja[Dia,22]
+                    *              0             0             1 
+    89 kiMelyikSzakasztKapja[Alina,23]
+                    *              0             0             1 
+    90 kiMelyikSzakasztKapja[Borcsa,23]
+                    *              0             0             1 
+    91 kiMelyikSzakasztKapja[Csilla,23]
+                    *              1             0             1 
+    92 kiMelyikSzakasztKapja[Dia,23]
+                    *              0             0             1 
+    93 kiMelyikSzakasztKapja[Alina,24]
+                    *              0             0             1 
+    94 kiMelyikSzakasztKapja[Borcsa,24]
+                    *              1             0             1 
+    95 kiMelyikSzakasztKapja[Csilla,24]
+                    *              0             0             1 
+    96 kiMelyikSzakasztKapja[Dia,24]
+                    *              0             0             1 
+    97 kiMelyikSzakasztKapja[Alina,25]
+                    *              0             0             1 
+    98 kiMelyikSzakasztKapja[Borcsa,25]
+                    *              1             0             1 
+    99 kiMelyikSzakasztKapja[Csilla,25]
+                    *              0             0             1 
+   100 kiMelyikSzakasztKapja[Dia,25]
+                    *              0             0             1 
+   101 kiMelyikSzakasztKapja[Alina,26]
+                    *              0             0             1 
+   102 kiMelyikSzakasztKapja[Borcsa,26]
+                    *              1             0             1 
+   103 kiMelyikSzakasztKapja[Csilla,26]
+                    *              0             0             1 
+   104 kiMelyikSzakasztKapja[Dia,26]
+                    *              0             0             1 
+   105 kiMelyikSzakasztKapja[Alina,27]
+                    *              0             0             1 
+   106 kiMelyikSzakasztKapja[Borcsa,27]
+                    *              0             0             1 
+   107 kiMelyikSzakasztKapja[Csilla,27]
+                    *              1             0             1 
+   108 kiMelyikSzakasztKapja[Dia,27]
+                    *              0             0             1 
+   109 kiMelyikSzakasztKapja[Alina,28]
+                    *              0             0             1 
+   110 kiMelyikSzakasztKapja[Borcsa,28]
+                    *              0             0             1 
+   111 kiMelyikSzakasztKapja[Csilla,28]
+                    *              0             0             1 
+   112 kiMelyikSzakasztKapja[Dia,28]
+                    *              1             0             1 
+   113 kiMelyikSzakasztKapja[Alina,29]
+                    *              0             0             1 
+   114 kiMelyikSzakasztKapja[Borcsa,29]
+                    *              1             0             1 
+   115 kiMelyikSzakasztKapja[Csilla,29]
+                    *              0             0             1 
+   116 kiMelyikSzakasztKapja[Dia,29]
+                    *              0             0             1 
+   117 kiMelyikSzakasztKapja[Alina,30]
+                    *              0             0             1 
+   118 kiMelyikSzakasztKapja[Borcsa,30]
+                    *              0             0             1 
+   119 kiMelyikSzakasztKapja[Csilla,30]
+                    *              1             0             1 
+   120 kiMelyikSzakasztKapja[Dia,30]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

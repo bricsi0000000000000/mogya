@@ -1,0 +1,55 @@
+set Rooms := 
+room1
+room2
+room3
+room4
+;
+
+set ComputerRooms :=
+room2
+room3
+;
+
+param:
+      roomCapacity roomRentCost :=
+room1     34          214
+room2     23          635
+room3     54          642
+room4     23          842
+;
+
+set Classes :=
+lesson1
+lesson2
+lesson3
+lesson4
+lesson5
+lesson6
+;
+
+set Lecturers :=
+lecturer1
+lecturer2
+lecturer3
+lecturer4
+lecturer5
+;
+
+param:
+         classHours classMemberCount needComputers    theLecturer :=
+lesson1       6           7                 .         lecturer1
+lesson2       3           23                1         lecturer2
+lesson3       5           13                .         lecturer5
+lesson4       2           34                .         lecturer1
+lesson5       1           23                1         lecturer3
+lesson6       7           45                .         lecturer4
+;
+
+param openHoursStart := 8;
+param openHoursEnd := 18;
+
+param M := 100;
+
+param numberOfDays := 5;
+
+end;

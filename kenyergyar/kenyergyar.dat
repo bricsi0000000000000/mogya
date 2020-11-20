@@ -1,0 +1,39 @@
+set Fields := field1 field2 field3 field4;
+set Mills := mill1 mill2;
+set Bakers := baker1 baker2 baker3;
+
+param fieldMillDistance:     
+                mill1  mill2 := #km
+        field1   201	79
+        field2   174	143
+        field3   107	102
+        field4   130	21
+;
+
+
+param millBakerDistance:
+               baker1    baker2    baker3:= #km
+        mill1  184	98	60
+        mill2  79	58	159
+;
+
+param truckMaxCapacity := 500; #kg
+
+param wheatAmount:= # kg
+    field1   36526
+    field2   12368
+    field3   25634
+    field4   9999
+;
+
+param millMaxCapacity:= #kg
+    mill1  50000
+    mill2  60000
+;
+
+param emptyTruckConsumption := 10; # l / 100 km
+param truckConsumptionGrowPerKG := 0.006; # l / kg / 100 km
+
+param fuelCost:= 300; # Ft / 100 km
+
+end;

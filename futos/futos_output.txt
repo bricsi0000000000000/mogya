@@ -1,0 +1,38 @@
+Szakasz 1 (8.35 km):	Csilla	38 p
+Szakasz 2 (10.20 km):	Dia	61 p
+Szakasz 3 (3.96 km):	Borcsa	22 p
+Szakasz 4 (10.52 km):	Csilla	47 p
+Szakasz 5 (0.21 km):	Borcsa	1 p
+Szakasz 6 (7.93 km):	Borcsa	44 p
+Szakasz 7 (5.36 km):	Csilla	24 p
+Szakasz 8 (14.05 km):	Alina	70 p
+Szakasz 9 (14.94 km):	Dia	90 p
+Szakasz 10 (1.55 km):	Csilla	7 p
+Szakasz 11 (3.98 km):	Alina	20 p
+Szakasz 12 (1.77 km):	Borcsa	10 p
+Szakasz 13 (7.64 km):	Borcsa	42 p
+Szakasz 14 (0.50 km):	Dia	3 p
+Szakasz 15 (13.28 km):	Csilla	60 p
+Szakasz 16 (9.45 km):	Csilla	43 p
+Szakasz 17 (9.15 km):	Borcsa	50 p
+Szakasz 18 (12.08 km):	Csilla	54 p
+Szakasz 19 (2.48 km):	Csilla	11 p
+Szakasz 20 (10.85 km):	Dia	65 p
+Szakasz 21 (10.72 km):	Csilla	48 p
+Szakasz 22 (11.94 km):	Alina	60 p
+Szakasz 23 (10.67 km):	Csilla	48 p
+Szakasz 24 (4.41 km):	Borcsa	24 p
+Szakasz 25 (9.49 km):	Borcsa	52 p
+Szakasz 26 (9.78 km):	Borcsa	54 p
+Szakasz 27 (2.23 km):	Csilla	10 p
+Szakasz 28 (5.52 km):	Dia	33 p
+Szakasz 29 (2.94 km):	Borcsa	16 p
+Szakasz 30 (13.28 km):	Csilla	60 p
+
+
+Alina	29.97 km	150 p
+Borcsa	57.30 km	315 p
+Csilla	99.98 km	450 p
+Dia	42.01 km	252 p
+
+Osszido: 1167 p

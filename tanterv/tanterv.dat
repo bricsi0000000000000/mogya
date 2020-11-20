@@ -1,0 +1,30 @@
+set Courses := A B C D E F G;
+
+param:
+    credits   lessons :=
+A   10        6
+B   8         5
+C   9         6
+D   15        10
+E   13        9
+F   13        11
+G   15        11
+;
+
+param numberOfSemesters := 3;
+
+param minHour := 17;
+param maxHour := 23;
+
+param minCredit := 25;
+param maxCredit := 35;
+
+param prevCourses :
+    A   B   C   D   E   F   G := 
+D   1   1   .   .   .   .   .
+E   .   .   1   .   .   .   .
+F   .   .   .   1   .   .   .
+G   1   .   .   .   1   .   .
+;
+
+end;

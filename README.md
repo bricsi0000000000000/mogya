@@ -25,3 +25,19 @@
 ## [Túristajel festés](https://github.com/bricsi0000000000000/mogya/tree/master/turistajelfestes)
 
 ## [Szuperbigyó](https://github.com/bricsi0000000000000/mogya/tree/master/szuperbigyo)
+
+## [Tehetségkutató](https://github.com/bricsi0000000000000/mogya/tree/master/tehetsegkutato)
+
+## [Termebeosztás](https://github.com/bricsi0000000000000/mogya/tree/master/terembeosztas)
+
+## [Tanterv](https://github.com/bricsi0000000000000/mogya/tree/master/tanterv)
+
+## [Kút fúrás](https://github.com/bricsi0000000000000/mogya/tree/master/kutfuras)
+
+## [Kenyérgyár](https://github.com/bricsi0000000000000/mogya/tree/master/kenyergyar)
+
+## [Futós](https://github.com/bricsi0000000000000/mogya/tree/master/futos)
+
+## [Puskázás](https://github.com/bricsi0000000000000/mogya/tree/master/puskazas)
+
+## [Vizsgára tanulós](https://github.com/bricsi0000000000000/mogya/tree/master/vizsgaratanulos)

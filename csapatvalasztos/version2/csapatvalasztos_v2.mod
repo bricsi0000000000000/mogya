@@ -4,29 +4,19 @@ set Skills;
 param knows {People, Skills} binary;
 param hate {People, People} binary;
 
-# Csatlakozik e
-var join {People};
+var team {People, Skills} binary;
 
-# 1 ha person1 és person2 egy csapatba kerülnek, amúgy 0
-var conflict {People, People} binary;
+s.t. FindPeopleForAllSkills {skill in Skills}:
+  sum {person in People} knows[person, skill] * team[person, skill] >= 1;
 
-s.t. Constraint1 {skill in Skills}:
-  sum {person in People} join[person] * knows[person, skill] >= 1;
-
-s.t. Constraint2 {person1 in People, person2 in People}:
-  (join[person1] + join[person2]) * hate[person1, person2] <= 1;
-
-s.t. Constraint3 {person1 in People, person2 in People: hate[person1, person2] == 1 && person1 <= person2}:
-  join[person1] + join[person2] <= 1;
-
-s.t. Constraint4 {person1 in People, person2 in People: hate[person1, person2] == 1}:
-  conflict[person1, person2] <= (join[person1] + join[person2]) / 2;
-
-minimize Conflicts: sum {person1 in People, person2 in People} conflict[person1, person2] / 2;
+minimize Conflict {person1 in People}:
+  sum {skill in Skills, person2 in People} team[person1, skill] * hate[person1, person2];
 
 solve;
 
-# Nem jó
+for {person in People, skill in Skills: team[person, skill] >= 1}{
+  printf "%10s:\t%s\n", person, skill;
+}
 
 
 

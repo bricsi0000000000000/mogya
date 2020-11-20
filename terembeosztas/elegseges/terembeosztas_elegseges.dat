@@ -1,0 +1,40 @@
+set Rooms := 
+room1
+room2
+room3
+room4
+;
+
+param:
+      roomCapacity roomRentCost :=
+room1     34          214
+room2     23          635
+room3     54          642
+room4     23          842
+;
+
+set Classes :=
+lesson1
+lesson2
+lesson3
+lesson4
+lesson5
+lesson6
+;
+
+param:
+         classHours classMemberCount :=
+lesson1       6           7
+lesson2       3           23
+lesson3       5           13
+lesson4       2           34
+lesson5       1           23
+lesson6       7           45
+;
+
+# reggel 8-tól delután 4-ig
+param totalHours := 8;
+
+param M := 100;
+
+end;

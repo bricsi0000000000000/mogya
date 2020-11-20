@@ -1,0 +1,70 @@
+param numberOfDays := 5;
+
+set RawMaterials :=
+material1
+material2
+material3
+;
+
+param szuperbigyoIncome :
+    material1 material2 material3 :=
+1     60          70        64
+2     70          30        72
+3     80          60        88
+4     10          20        12
+5     10          50        16
+;
+
+param price :=
+material1     500
+material2     300
+material3     800
+;
+
+param maxHours := 400;
+
+set Orders :=
+order1
+order2
+order3
+order4
+order5
+;
+
+param hours :=
+order1  30
+order2  60
+order3  20
+order4  70
+order5  40
+;
+
+param profit :=
+order1 523
+order2 543
+order3 876
+order4 273
+order5 743
+;
+
+param szuperbigyoNeeded :
+        material1 material2 material3 :=
+order1     54         45       55 
+order2     65         56       66 
+order3     23         32       22 
+order4     75         57       77 
+order5     12         21       11 
+;
+
+param manufacturingDay :=
+order1  5
+order2  3
+order3  1
+order4  2
+order5  4
+;
+
+param maxStorageCapacity := 200;
+param maxStorageCapacityDay := 100;
+
+end;

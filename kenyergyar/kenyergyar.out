@@ -1,0 +1,125 @@
+Problem:    kenyergyar
+Rows:       23
+Columns:    28 (14 integer, 0 binary)
+Non-zeros:  86
+Status:     INTEGER OPTIMAL
+Objective:  Cost = 753185251.9 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 AllWheatFromFields[field1]
+                               36526         36526             = 
+     2 AllWheatFromFields[field2]
+                               12368         12368             = 
+     3 AllWheatFromFields[field3]
+                               25634         25634             = 
+     4 AllWheatFromFields[field4]
+                                9999          9999             = 
+     5 MillMaxCapacity[mill1]
+                               24527                       50000 
+     6 MillMaxCapacity[mill2]
+                               60000                       60000 
+     7 TransportEverythingFromMill[mill1]
+                                   0            -0             = 
+     8 TransportEverythingFromMill[mill2]
+                                   0            -0             = 
+     9 TrucksCount1[field1,mill1]
+                                   0            -0               
+    10 TrucksCount1[field1,mill2]
+                                   0            -0               
+    11 TrucksCount1[field2,mill1]
+                                   0            -0               
+    12 TrucksCount1[field2,mill2]
+                                   0            -0               
+    13 TrucksCount1[field3,mill1]
+                                   0            -0               
+    14 TrucksCount1[field3,mill2]
+                                   0            -0               
+    15 TrucksCount1[field4,mill1]
+                                   0            -0               
+    16 TrucksCount1[field4,mill2]
+                                   0            -0               
+    17 TrucksCount2[mill1,baker1]
+                                   0            -0               
+    18 TrucksCount2[mill1,baker2]
+                                   0            -0               
+    19 TrucksCount2[mill1,baker3]
+                                   0            -0               
+    20 TrucksCount2[mill2,baker1]
+                                   0            -0               
+    21 TrucksCount2[mill2,baker2]
+                                   0            -0               
+    22 TrucksCount2[mill2,baker3]
+                                   0            -0               
+    23 Cost              7.53185e+08                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 fieldMillTransport[field1,mill1]
+                    *              0             0               
+     2 fieldMillTransport[field1,mill2]
+                    *          36526             0               
+     3 fieldMillTransport[field2,mill1]
+                    *              0             0               
+     4 fieldMillTransport[field2,mill2]
+                    *          12368             0               
+     5 fieldMillTransport[field3,mill1]
+                    *          24527             0               
+     6 fieldMillTransport[field3,mill2]
+                    *           1107             0               
+     7 fieldMillTransport[field4,mill1]
+                    *              0             0               
+     8 fieldMillTransport[field4,mill2]
+                    *           9999             0               
+     9 fieldMillDeliver[field1,mill1]
+                                   0             0               
+    10 fieldMillDeliver[field1,mill2]
+                              73.052             0               
+    11 fieldMillDeliver[field2,mill1]
+                                   0             0               
+    12 fieldMillDeliver[field2,mill2]
+                              24.736             0               
+    13 fieldMillDeliver[field3,mill1]
+                              49.054             0               
+    14 fieldMillDeliver[field3,mill2]
+                               2.214             0               
+    15 fieldMillDeliver[field4,mill1]
+                                   0             0               
+    16 fieldMillDeliver[field4,mill2]
+                              19.998             0               
+    17 millBakerTransport[mill1,baker1]
+                    *              0             0               
+    18 millBakerTransport[mill1,baker2]
+                    *              0             0               
+    19 millBakerTransport[mill1,baker3]
+                    *          24527             0               
+    20 millBakerTransport[mill2,baker1]
+                    *              0             0               
+    21 millBakerTransport[mill2,baker2]
+                    *          60000             0               
+    22 millBakerTransport[mill2,baker3]
+                    *              0             0               
+    23 millBakerDeliver[mill1,baker1]
+                                   0             0               
+    24 millBakerDeliver[mill1,baker2]
+                                   0             0               
+    25 millBakerDeliver[mill1,baker3]
+                              49.054             0               
+    26 millBakerDeliver[mill2,baker1]
+                                   0             0               
+    27 millBakerDeliver[mill2,baker2]
+                                 120             0               
+    28 millBakerDeliver[mill2,baker3]
+                                   0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

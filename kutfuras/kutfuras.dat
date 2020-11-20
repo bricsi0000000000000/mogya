@@ -1,0 +1,38 @@
+set Pumps :=
+pump1
+pump2
+pump3
+pump4
+pump5
+;
+set Houses :=
+house1
+house2
+house3
+house4
+house5
+house6
+;
+
+param :
+       pumpBuildCost pumpMaintainCost :=
+pump1       2               100
+pump2       3               50
+pump3       2.7             70
+pump4       1               200
+pump5       3               300
+;
+
+param supply(tr):
+        pump1 pump2 pump3 pump4 pump5 :=
+house1    1     1     0     0     0
+house2    1     0     0     1     0
+house3    1     1     1     0     0
+house4    0     1     1     0     1
+house5    0     0     1     0     1
+house6    0     0     0     1     1
+;
+
+param timeInterval := 25;
+
+end;
