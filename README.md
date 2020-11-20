@@ -41,3 +41,5 @@
 ## [Puskázás](https://github.com/bricsi0000000000000/mogya/tree/master/puskazas)
 
 ## [Vizsgára tanulós](https://github.com/bricsi0000000000000/mogya/tree/master/vizsgaratanulos)
+
+## [Buszos](https://github.com/bricsi0000000000000/mogya/tree/master/busz)

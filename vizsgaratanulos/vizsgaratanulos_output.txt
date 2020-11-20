@@ -1,0 +1,296 @@
+Total study hours: 63
+
+day1
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day2
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day3
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day4
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day5
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day6
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day7
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day8
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day9
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day10
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day11
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day12
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day13
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day14
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day15
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day16
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day17
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day18
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day19
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day20
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day21
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day22
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day23
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day24
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day25
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day26
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day27
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day28
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day29
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day30
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day31
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day32
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day33
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day34
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day35
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day36
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day37
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day38
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day39
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day40
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day41
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+
+day42
+	ExpertSystems
+	ComputerNetworks
+	Programming
+	Finance
+	DeceisonSupport
+

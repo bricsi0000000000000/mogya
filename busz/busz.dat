@@ -1,0 +1,21 @@
+set Stations := A B C D;
+set People := E1 E2 E3 E4 E5 E6 E7;
+param busCount := 3;
+
+param traveltime :=
+  A 0
+  B 10
+  C 15
+  D 22
+  ;
+
+param:
+      workstart workplace :=
+  E1  50        B
+  E2  80        C
+  E3  45        D
+  E4  75        B
+  E5  53        D
+  E6  48        C
+  E7  88        B
+  ;

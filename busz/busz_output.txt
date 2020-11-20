@@ -1,0 +1,18 @@
+Bus 1 starts from A at: 323
+  A(323) B(333) C(338) D(345) 
+
+Bus 2 starts from A at: 323
+  A(323) B(333) C(338) D(345) 
+
+Bus 3 starts from A at: 23
+  A(23) B(33) C(38) D(45) 
+
+	E1 travels to B, arrives at 33, waits 17 until 50
+	E2 travels to C, arrives at 38, waits 42 until 80
+	E3 travels to D, arrives at 45, waits 0 until 45
+	E4 travels to B, arrives at 33, waits 42 until 75
+	E5 travels to D, arrives at 45, waits 8 until 53
+	E6 travels to C, arrives at 38, waits 10 until 48
+	E7 travels to B, arrives at 33, waits 55 until 88
+
+Total wasted time: 174
