@@ -1,6 +1,6 @@
 # MOGYA
 
-## [Elméleti krédések](https://github.com/bricsi0000000000000/mogya/tree/master/elmeletikerdesek)
+## [**Elméleti kérdések**](https://github.com/bricsi0000000000000/mogya/tree/master/elmeletikerdesek)
 
 ## [Fesztiválos](https://github.com/bricsi0000000000000/mogya/tree/master/fesztivalok)
 
